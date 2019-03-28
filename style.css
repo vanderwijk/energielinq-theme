@@ -1,0 +1,139 @@
+/**
+* Theme Name: Energielinq
+* Description: This is a child theme of Fran.
+* Author: <a href="https://thewebworks.nl/">Johan van der Wijk</a>
+* Template: fran
+* Version: 10.5.13
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: 400;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html h1,
+html h2,
+html h3 {
+	font-weight: 600;
+}
+html body {
+	background-color: #fff;
+	color: #637282;
+}
+html .branding {
+	background-color: #f3f3f3;
+}
+html .branding .block {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+html .bottom {
+	background-color: #fff;
+}
+html .logo {
+	height: 82px;
+	width: 140px;
+	max-height: 5.125em;
+}
+html .header .nav {
+	width: 100%;
+}
+@media screen and (min-width: 480px) {
+html .header .nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+}
+html .header .nav li a {
+	color: #333;
+	font-weight: 600;
+}
+html .site-description {
+	color: #637282;
+	font-size: .75em;
+	text-transform: uppercase;
+}
+html .intro h2 {
+	color: #333;
+}
+
+html .main {
+	background-color: #f3f3f3;
+}
+html .content .block {
+	box-shadow: 0px 5px 20px 0px rgba(30, 32, 90, 0.08);
+}
+html .content a {
+	color: #06d6a0;
+	border-color: #06d6a0;
+}
+html .entry-title {
+	color: #06d6a0;
+}
+html .home .one-third .block .entry-content p, 
+html .archive .one-third .block .entry-content p, 
+html .search .one-third .block .entry-content p {
+	font-size: 1em;
+}
+
+html .breadcrumbs {
+	background-color: #f3f3f3;
+}
+
+html .main .gform_wrapper .gform_footer input.button, 
+html .main .gform_wrapper .gform_footer input[type="submit"], 
+html .form-submit .submit, form input[type="submit"] {
+	background-color: #06d6a0;
+	box-shadow: none;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	padding: .75em 1.25em
+}
+html .comment-reply-link {
+	border-width: 2px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+html .comments-title,
+html .comment-reply-title,
+html .copyright a {
+	color: #637282;
+}
+html .comment-form-comment textarea {
+	border: 1px solid #eceae6;
+	border-radius: 3px;
+	width: 100%;
+}
+html .bottom {
+	color: #b6b6b6;
+}
+html .bottom h3 {
+	color: #06d6a0;
+}
+html .bottom a {
+	color: #637282;
+}
+
+html .menu-toggle, .header .nav li a {
+	color: #333;
+}
+html b, html strong {
+	font-weight: 600;
+}
+.footer-logo {
+	display: inline-block;
+}
+.one-third .block img.footer-logo {
+	max-width: 40%;
+	vertical-align: top;
+	float: right;
+}
+.one-third .block img.footer-logo:first-child {
+	float: left;
+}
