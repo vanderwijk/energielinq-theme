@@ -96,21 +96,13 @@ html .form-submit .submit, form input[type="submit"] {
 	font-weight: 600;
 	padding: .75em 1.25em
 }
-html .comment-reply-link {
-	border-width: 2px;
-	font-weight: 600;
-	text-transform: uppercase;
-}
+
 html .comments-title,
 html .comment-reply-title,
 html .copyright a {
 	color: #637282;
 }
-html .comment-form-comment textarea {
-	border: 1px solid #eceae6;
-	border-radius: 3px;
-	width: 100%;
-}
+
 html .bottom {
 	color: #b6b6b6;
 }
