@@ -89,12 +89,17 @@
 				</div>
 			</div>
 
-			<?php $related_posts = get_posts( array(
+			<?php 
+			$related_posts = get_posts( array(
 						'post_type' => 'post',
 						'posts_per_page' => -1,
-						'meta_key' => 'expert',
-						'meta_value' => $post ->ID
-					) );
+						'meta_query' => array(
+							array(
+								'key' => 'expert',
+								'value' => '20',
+								'compare' => 'LIKE'
+							)
+					) ) );
 					if ( $related_posts ) { ?>
 
 			<div class="col">
