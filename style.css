@@ -145,7 +145,7 @@ html b, html strong {
 	flex-wrap: wrap;
 	font-size: 0.875em;
 	text-transform: uppercase;
-	margin-bottom: 0.714em;
+	margin-bottom: .750em;
 	justify-content: flex-end
 }
 .entry-content li {
