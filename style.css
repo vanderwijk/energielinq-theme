@@ -130,3 +130,40 @@ html b, html strong {
 .one-third .block img.footer-logo:first-child {
 	float: left;
 }
+
+.attachment-post-thumbnail {
+	float: left;
+	border-radius: 8px;
+	margin: 0 20px 20px 0;
+	width: 30%;
+	height: auto;
+}
+
+.entry-content ul {
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 0.875em;
+	text-transform: uppercase;
+	margin-bottom: 0.714em;
+	justify-content: flex-end
+}
+.entry-content li {
+	list-style: none;
+}
+.entry-content li.linkedin a,
+.entry-content li.envelope a {
+	background-image: url( 'img/linkedin-icon.svg' );
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	background-position: left center;
+	padding-left: 20px;
+	margin-left: 20px;
+	border: none;
+}
+.entry-content li.envelope a {
+	background-image: url( 'img/envelope-icon.svg' );
+}
+.related h3 {
+	margin-top: .75em;
+}
