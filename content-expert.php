@@ -96,7 +96,7 @@
 						'meta_query' => array(
 							array(
 								'key' => 'expert',
-								'value' => '20',
+								'value' => $post ->ID,
 								'compare' => 'LIKE'
 							)
 					) ) );
