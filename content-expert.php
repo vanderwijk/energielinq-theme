@@ -89,14 +89,11 @@
 				</div>
 			</div>
 
-			<?php 
-			$expert = get_field( 'expert' );
-			if ( $expert ) {
-			$related_posts = get_posts( array(
+			<?php $related_posts = get_posts( array(
 						'post_type' => 'post',
 						'posts_per_page' => -1,
 						'meta_key' => 'expert',
-						'meta_value' => $expert
+						'meta_value' => $post ->ID
 					) );
 					if ( $related_posts ) { ?>
 
@@ -116,6 +113,6 @@
 			</div>
 
 			<?php wp_reset_postdata();
-			} } ?>
+			} ?>
 
 <?php } ?>
