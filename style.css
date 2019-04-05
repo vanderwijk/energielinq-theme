@@ -28,7 +28,7 @@ html body {
 	color: #637282;
 }
 html .branding {
-	background-color: #f3f3f3;
+	background-color: #f5f5f5;
 }
 html .branding .block {
 	margin-top: 0;
@@ -45,6 +45,22 @@ html .logo {
 html .header .nav {
 	width: 100%;
 }
+.headroom--not-top {
+	box-shadow: 0 1px 3px 0 rgba(62,62,62,.1);
+}
+
+html .post-navigation a[rel="prev"] {
+	background: url('img/arrows.svg') no-repeat;
+}
+html .post-navigation a[rel="next"] {
+	background: url('img/arrows.svg') no-repeat;
+	background-position: -70px;
+}
+html .comment-reply-link:hover, html .comment-reply-link:focus {
+	border-color: #3e3e3e;
+	color: #3e3e3e;
+}
+
 @media screen and (min-width: 480px) {
 html .header .nav ul {
 	display: flex;
@@ -52,7 +68,7 @@ html .header .nav ul {
 }
 }
 html .header .nav li a {
-	color: #333;
+	color: #3e3e3e;
 	font-weight: 600;
 }
 html .site-description {
@@ -61,11 +77,11 @@ html .site-description {
 	text-transform: uppercase;
 }
 html .intro h2 {
-	color: #333;
+	color: #3e3e3e;
 }
 
 html .main {
-	background-color: #f3f3f3;
+	background-color: #f5f5f5;
 }
 html .content .block {
 	box-shadow: 0px 5px 20px 0px rgba(30, 32, 90, 0.08);
@@ -84,7 +100,7 @@ html .search .one-third .block .entry-content p {
 }
 
 html .breadcrumbs {
-	background-color: #f3f3f3;
+	background-color: #f5f5f5;
 }
 
 html .main .gform_wrapper .gform_footer input.button, 
@@ -114,7 +130,7 @@ html .bottom a {
 }
 
 html .menu-toggle, .header .nav li a {
-	color: #333;
+	color: #3e3e3e;
 }
 html b, html strong {
 	font-weight: 600;
