@@ -107,11 +107,10 @@
 					<h3>Gerelateerde artikelen</h3>
 					<ul>
 						<?php
-							foreach ( $related_posts as $related_post ) : 
-								setup_postdata( $related_post ); ?>
-								<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+							foreach ( $related_posts as $related_post ) { ?>
+								<li><a href="<?php echo get_permalink( $related_post->ID ); ?>"><?php echo $related_post->post_title; ?></a></li>
 							<?php
-							endforeach;
+							}
 						?>
 					</ul>
 				</div>
