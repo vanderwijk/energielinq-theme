@@ -89,26 +89,29 @@
 				</div>
 			</div>
 
-			<div class="col">
-				<div class="block related">
-					<h3>Gerelateerde artikelen</h3>
-					<ul>
-					<?php
-					$related_posts = get_posts( array(
+			<?php $related_posts = get_posts( array(
 						'post_type' => 'post',
 						'posts_per_page' => -1,
 						'author' => 1
 					) );
-					if ( $related_posts ) {
-						foreach ( $related_posts as $related_post ) : 
-							setup_postdata( $related_post ); ?>
-							<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+					if ( $related_posts ) { ?>
+
+			<div class="col">
+				<div class="block related">
+					<h3>Gerelateerde artikelen</h3>
+					<ul>
 						<?php
-						endforeach;
-						wp_reset_postdata();
-					} ?>
-				</ul>
+							foreach ( $related_posts as $related_post ) : 
+								setup_postdata( $related_post ); ?>
+								<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+							<?php
+							endforeach;
+						?>
+					</ul>
 				</div>
 			</div>
+
+			<?php wp_reset_postdata();
+			} ?>
 
 <?php } ?>
