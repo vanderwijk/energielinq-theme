@@ -74,7 +74,9 @@
 					</div>
 
 					<?php if ( has_post_thumbnail() ) {
-						the_post_thumbnail();
+						if ( get_field( 'verberg_uitgelichte_afbeelding' ) != true ) {
+							the_post_thumbnail();
+						}
 					} ?>
 
 					<div class="entry-content clearfix">
