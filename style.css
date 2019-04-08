@@ -42,6 +42,9 @@ html .logo {
 	width: 140px;
 	max-height: 5.125em;
 }
+html .header {
+	background-color: #fff;
+}
 html .header .nav {
 	width: 100%;
 }
