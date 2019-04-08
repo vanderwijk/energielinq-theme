@@ -58,6 +58,19 @@
 					<div class="taxonomies">
 						<p class="topics"><?php the_terms( $post->ID, 'topic', __('Topic','energielinq') . ': ', '' ); ?></p>
 						<p class="audiences"><?php the_terms( $post->ID, 'audience', __('Audience','energielinq') . ': ', '' ); ?></p>
+
+						<?php 
+						$experts = get_field( 'expert' );
+						if ( $experts ) {
+							echo '<p class="experts">Expert: ';
+							foreach ( $experts as $expert ) {
+								$related_experts = get_post( $expert );
+								echo '<a href="' . get_the_permalink($related_experts -> ID) . '">';
+								echo $related_experts -> post_title;
+								echo '</a>';
+							}
+							echo '</p>';
+						} ?>
 					</div>
 
 					<div class="entry-content clearfix">
