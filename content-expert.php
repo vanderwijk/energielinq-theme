@@ -67,7 +67,7 @@
 						$linkedin = get_field( 'linkedin' );
 						$email = get_field( 'email' );
 						if ( $email || $linkedin ) {
-							echo '<ul>';
+							echo '<ul class="expert-info">';
 							if ( $linkedin ) {
 								echo '<li class="linkedin"><a href="' . $linkedin . '" target="_blank">' . $linkedin . '</a></li>';
 							}
