@@ -193,3 +193,10 @@ ul.expert-info {
 	text-transform: uppercase;
 	font-size: 0.75em;
 }
+
+.experts a:after {
+	content: ', ';
+}
+.experts a:last-child:after {
+	content: '';
+}
