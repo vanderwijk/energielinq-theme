@@ -148,11 +148,15 @@ html b, html strong {
 }
 
 .attachment-post-thumbnail {
-	float: left;
-	border-radius: 5px;
+	border-radius: 8px;
 	margin: 0 20px 20px 0;
-	width: 30%;
+	width: 100%;
 	height: auto;
+}
+
+.single-expert .attachment-post-thumbnail {
+	float: left;
+	width: 30%;
 }
 
 ul.expert-info {

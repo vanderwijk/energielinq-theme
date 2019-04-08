@@ -73,6 +73,10 @@
 						} ?>
 					</div>
 
+					<?php if ( has_post_thumbnail() ) {
+						the_post_thumbnail();
+					} ?>
+
 					<div class="entry-content clearfix">
 						<?php the_content(); ?>
 						<?php get_template_part( 'module-page-links', get_post_format() ); ?>
