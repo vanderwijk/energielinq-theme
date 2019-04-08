@@ -20,7 +20,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 html h1,
 html h2,
 html h3 {
-	color: #06d6a0;
+	color: #4BAA82;
 	font-weight: 600;
 }
 html body {
@@ -87,11 +87,11 @@ html .content .block {
 	box-shadow: 0px 5px 20px 0px rgba(30, 32, 90, 0.08);
 }
 html .content a {
-	color: #06d6a0;
-	border-color: #06d6a0;
+	color: #4BAA82;
+	border-color: #4BAA82;
 }
 html .entry-title {
-	color: #06d6a0;
+	color: #4BAA82;
 }
 html .home .one-third .block .entry-content p, 
 html .archive .one-third .block .entry-content p, 
@@ -106,7 +106,7 @@ html .breadcrumbs {
 html .main .gform_wrapper .gform_footer input.button, 
 html .main .gform_wrapper .gform_footer input[type="submit"], 
 html .form-submit .submit, form input[type="submit"] {
-	background-color: #06d6a0;
+	background-color: #4BAA82;
 	box-shadow: none;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
@@ -123,7 +123,7 @@ html .bottom {
 	color: #b6b6b6;
 }
 html .bottom h3 {
-	color: #06d6a0;
+	color: #4BAA82;
 }
 html .bottom a {
 	color: #637282;
