@@ -18,3 +18,25 @@ function fran_child_enqueue_styles() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'fran_child_enqueue_styles' );
+
+// Google analytics tracking code
+function google_analytics() { ?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138561833-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-138561833-1');
+</script>
+<?php }
+add_action('wp_head', 'google_analytics');
+
+// Hubspot tracking code
+function hubspot() { ?>
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5349985.js"></script>
+<!-- End of HubSpot Embed Code -->
+<?php }
+add_action('wp_footer', 'hubspot');
