@@ -72,7 +72,7 @@
 								echo '<li class="linkedin"><a href="' . $linkedin . '" target="_blank">' . $linkedin . '</a></li>';
 							}
 							if ( $email ) {
-								echo '<li class="linkedin"><a href="mailto:' . $email . '">' . $email . '</a></li>';
+								echo '<li class="envelope"><a href="mailto:' . $email . '">' . $email . '</a></li>';
 							}
 							echo '</ul>';
 						} ?>
