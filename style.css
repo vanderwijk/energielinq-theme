@@ -60,12 +60,7 @@ html .comment-reply-link:hover, html .comment-reply-link:focus {
 	color: #3e3e3e;
 }
 
-@media screen and (min-width: 480px) {
-html .header .nav ul {
-	display: flex;
-	justify-content: space-between;
-}
-}
+
 html .header .nav li {
 	float: none;
 	position: inherit;
