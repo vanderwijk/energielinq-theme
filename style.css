@@ -30,25 +30,6 @@ html body {
 html .branding {
 	background-color: #fff;
 }
-html .branding {
-	display: flex;
-	margin: 0 auto;
-	max-width: 1000px;
-	padding: 10px;
-	width: 100%;
-}
-html nav,
-html .searchform {
-	margin: 0 auto;
-	max-width: 1000px;
-	padding: 0 10px 10px 10px;
-	width: 100%;
-}
-html .menu-toggle {
-	position: absolute;
-	top: 10px;
-	left: 10px;
-}
 html .bottom {
 	background-color: #fff;
 }
