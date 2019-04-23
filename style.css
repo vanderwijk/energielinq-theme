@@ -3,10 +3,66 @@
 * Description: This is a child theme of Fran.
 * Author: <a href="https://thewebworks.nl/">Johan van der Wijk</a>
 * Template: fran
-* Version: 10.5.15
+* Version: 10.5.16
 */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
 	border: 0;
 	font-family: 'Poppins', sans-serif;
 	font-size: 100%;
@@ -17,64 +73,67 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	padding: 0;
 	vertical-align: baseline;
 }
+
 html h1,
 html h2,
 html h3 {
 	color: #4BAA82;
 	font-weight: 600;
 }
+
 html body {
 	background-color: #fff;
 	color: #637282;
 }
+
 html .branding {
 	background-color: #fff;
 }
+
 html .bottom {
 	background-color: #fff;
 }
+
 html .logo {
 	height: 82px;
 	width: 140px;
 	max-height: 5.125em;
 }
+
 html .header {
 	background-color: #fff;
 }
-html .header .nav {
-	width: 100%;
-}
+
 .headroom--not-top {
-	box-shadow: 0 1px 3px 0 rgba(62,62,62,.1);
+	box-shadow: 0 1px 3px 0 rgba(62, 62, 62, .1);
 }
 
 html .post-navigation a[rel="prev"] {
 	background: url('img/arrows.svg') no-repeat;
 }
+
 html .post-navigation a[rel="next"] {
 	background: url('img/arrows.svg') no-repeat;
 	background-position: -70px;
 }
-html .comment-reply-link:hover, html .comment-reply-link:focus {
+
+html .comment-reply-link:hover,
+html .comment-reply-link:focus {
 	border-color: #3e3e3e;
 	color: #3e3e3e;
 }
 
-
-html .header .nav li {
-	float: none;
-	position: inherit;
-	margin-left: 0;
-}
 html .header .nav li a {
 	color: #3e3e3e;
 	font-weight: 600;
 }
+
 html .site-description {
 	color: #637282;
 	font-size: .75em;
 	text-transform: uppercase;
 }
+
 html .intro h2 {
 	color: #3e3e3e;
 }
@@ -82,18 +141,22 @@ html .intro h2 {
 html .main {
 	background-color: #f5f5f5;
 }
+
 html .content .block {
-	box-shadow: 0px 5px 20px 0px rgba(30, 32, 90, 0.08);
+	box-shadow: 0 5px 20px 0 rgba(30, 32, 90, 0.08);
 }
+
 html .content a {
 	color: #4BAA82;
 	border-color: #4BAA82;
 }
+
 html .entry-title {
 	color: #4BAA82;
 }
-html .home .one-third .block .entry-content p, 
-html .archive .one-third .block .entry-content p, 
+
+html .home .one-third .block .entry-content p,
+html .archive .one-third .block .entry-content p,
 html .search .one-third .block .entry-content p {
 	font-size: 1em;
 }
@@ -102,9 +165,10 @@ html .breadcrumbs {
 	background-color: #f5f5f5;
 }
 
-html .main .gform_wrapper .gform_footer input.button, 
-html .main .gform_wrapper .gform_footer input[type="submit"], 
-html .form-submit .submit, form input[type="submit"] {
+html .main .gform_wrapper .gform_footer input.button,
+html .main .gform_wrapper .gform_footer input[type="submit"],
+html .form-submit .submit,
+form input[type="submit"] {
 	background-color: #4BAA82;
 	box-shadow: none;
 	font-family: 'Poppins', sans-serif;
@@ -121,30 +185,39 @@ html .copyright a {
 html .bottom {
 	color: #b6b6b6;
 }
+
 html .bottom h3 {
 	color: #4BAA82;
 }
+
 html .bottom a {
 	color: #637282;
 }
 
-html .menu-toggle, .header .nav li a {
+html .menu-toggle,
+.header .nav li a {
 	color: #3e3e3e;
 }
-html b, html strong {
+
+html b,
+html strong {
 	font-weight: 600;
 }
+
 .footer-logo {
 	display: inline-block;
 }
+
 .one-third .block img.footer-logo {
 	max-width: 40%;
 	vertical-align: top;
 	float: right;
 }
+/*
 .one-third .block img.footer-logo:first-child {
 	float: left;
 }
+*/
 
 .attachment-post-thumbnail {
 	border-radius: 8px;
@@ -167,12 +240,14 @@ ul.expert-info {
 	margin-bottom: 0.714em;
 	justify-content: flex-end
 }
+
 .expert-info li {
 	list-style: none;
 }
+
 .expert-info li.linkedin a,
 .expert-info li.envelope a {
-	background-image: url( 'img/linkedin-icon.svg' );
+	background-image: url('img/linkedin-icon.svg');
 	background-repeat: no-repeat;
 	background-size: 16px 16px;
 	background-position: left center;
@@ -180,15 +255,19 @@ ul.expert-info {
 	margin-left: 20px;
 	border: none;
 }
+
 .expert-info li.envelope a {
-	background-image: url( 'img/envelope-icon.svg' );
+	background-image: url('img/envelope-icon.svg');
 }
+
 .related h3 {
 	margin-top: .75em;
 }
+
 .taxonomies {
 	margin-bottom: .75em;
 }
+
 .topics,
 .audiences,
 .experts {
@@ -200,6 +279,7 @@ ul.expert-info {
 .experts a:after {
 	content: ', ';
 }
+
 .experts a:last-child:after {
 	content: '';
 }
