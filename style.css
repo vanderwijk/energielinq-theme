@@ -313,6 +313,34 @@ ul.expert-info {
 	align-self: flex-end;
 }
 
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+.projectbeschrijving {
+	width: 67%;
+}
+.projectdata {
+	width: 30%;
+}
+
+.projectdata td:first-child {
+	white-space: nowrap;
+}
+
+@media screen and (max-width: 780px) {
+	.flex {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.projectbeschrijving {
+		width: 100%;
+	}
+	.projectdata {
+		width: 100%;
+	}
+}
+
 @media screen and (max-width: 480px), screen and (-webkit-device-pixel-ratio: 3) and (device-height: 640px) and (device-width: 360px) {
 	#menu-themas {
 		column-count: 2;
@@ -322,5 +350,100 @@ ul.expert-info {
 		padding: 2.083333333333333%;
 		width: 95.83333333333333%;
 	}
+}
 
+.main .search-form {
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+    padding: .5em;
+    max-width: 260px;
+	margin: 0 auto 3em;
+	display: flex;
+}
+
+@media (max-width: 767px) {
+    .main .search-form {
+        margin-bottom:1em
+    }
+}
+
+.main .search-form label {
+    -ms-flex: 1;
+    flex: 1
+}
+
+.main .search-form label .screen-reader-text {
+    display: none
+}
+
+.main .search-form label input {
+    display: block;
+    width: 100%;
+    line-height: 1;
+    margin-top: .2em
+}
+
+.main .search-form button,
+.main .search-form input {
+    -webkit-appearance: none;
+    border: 0;
+    background: #fff
+}
+
+.main .search-form button,
+.main .search-form button:hover {
+	padding: 0;
+	box-shadow: none;
+}
+
+.main .search-form button svg {
+    display: block;
+    width: 21px;
+    height: 21px
+}
+
+.main .search-form+.metadata {
+    font-size: .9em;
+    font-style: italic;
+    margin: -2.5em 0 3em
+}
+
+.narrow-column {
+	width: 25%;
+}
+.wide-column {
+	width: 75%;
+}
+
+.facetwp-search,
+.facetwp-dropdown {
+	padding: 5px;
+	border: 1px solid #b6b6b6;
+	width: 80%;
+}
+
+.result {
+	margin-bottom: 20px;
+}
+
+.result a {
+	color: #404040;
+}
+
+.result img {
+	width: 100%;
+	height: auto;
+}
+
+.result h3 {
+	margin-top: 0;
+}
+
+.result .search-thumbnail {
+	width: 25%;
+}
+
+.result .search-description{
+	width: 73%;
 }
