@@ -29,9 +29,18 @@
 				echo '</a></div></div>';
 
 			endwhile;
-		else :
-			get_template_part( 'content', 'none' );
-		endif;
+		else : ?>
+			
+			<div class="col">
+				<div class="block">
+					<h1 class="page-title"><?php _e( 'Not Found', 'fran' ); ?></h1>
+					<div class="page-content">
+						<p>Er kunnen geen projecten worden gevonden met deze zoekcriteria.</p>
+					</div>
+				</div>
+			</div>
+
+		<?php endif;
 	?>
 	</div>
 </div>
