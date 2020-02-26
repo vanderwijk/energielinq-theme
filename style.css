@@ -3,7 +3,7 @@
 * Description: This is a child theme of Fran.
 * Author: <a href="https://thewebworks.nl/">Johan van der Wijk</a>
 * Template: fran
-* Version: 10.5.16
+* Version: 10.5.17
 */
 
 html,
@@ -414,6 +414,15 @@ ul.expert-info {
 }
 .wide-column {
 	width: 75%;
+}
+
+@media (max-width: 767px) {
+	.narrow-column,
+	.wide-column {
+		margin: 2.083333333333333%;
+		padding: 2.083333333333333%;
+		width: 95.83333333333333%;
+	}
 }
 
 .facetwp-search,
