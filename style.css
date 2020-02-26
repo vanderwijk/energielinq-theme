@@ -463,3 +463,7 @@ ul.expert-info {
 .result .search-description{
 	width: 73%;
 }
+
+.uagb-post__link.uagb-text-link {
+	border: none!important;
+}
