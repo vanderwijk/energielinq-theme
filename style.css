@@ -3,7 +3,7 @@
 * Description: This is a child theme of Fran.
 * Author: <a href="https://thewebworks.nl/">Johan van der Wijk</a>
 * Template: fran
-* Version: 10.5.19
+* Version: 10.5.20
 */
 
 html,
@@ -439,19 +439,32 @@ ul.expert-info {
 	}
 }
 
+.wide,
 .result {
 	margin-bottom: 20px;
 }
 
+.wide {
+	margin: .9803921568627451%;
+    padding: .9803921568627451%;
+	width: 98.03921568627451%;
+	background-color: #fff;
+	border: 1px solid #e9eaec;
+	box-shadow: 0 5px 20px 0 rgba(30, 32, 90, 0.08);
+}
+
+.wide a,
 .result a {
 	color: #404040;
 }
 
+.wide img,
 .result img {
 	width: 100%;
 	height: auto;
 }
 
+.wide h3,
 .result h3 {
 	margin-top: 0;
 }
@@ -460,10 +473,42 @@ ul.expert-info {
 	width: 25%;
 }
 
-.result .search-description{
+
+.result .search-description {
 	width: 73%;
+}
+
+.wide .thumbnail {
+	width: 30%;
+}
+
+.wide .description {
+	width: 69%;
+}
+
+@media (max-width: 767px) {
+	.wide {
+		width: 98.03921568627451%;
+	}
+.wide .thumbnail {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.wide .description {
+	width: 100%;
+}
+}
+
+.wide .description p:last-child {
+	margin-bottom: 0;
 }
 
 .uagb-post__link.uagb-text-link {
 	border: none!important;
+}
+.wide .read-more {
+	float: right;
+	color: #4BAA82;
+	margin-top: 10px;
 }
