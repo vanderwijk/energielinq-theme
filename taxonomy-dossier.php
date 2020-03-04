@@ -35,6 +35,7 @@
 					$link_rel = 'external';
 				} else {
 					$link = get_the_permalink();
+					$link_rel = '';
 				}
 
 				$featured_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post ->ID ), 'single' ); ?>
