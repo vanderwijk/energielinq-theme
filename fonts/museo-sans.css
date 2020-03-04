@@ -1,0 +1,81 @@
+/*
+@font-face {
+    font-family: museo_sans_100_italic;
+    src: url('/wp-content/themes/energielinq-theme/fonts/museo-sans-100-italic-webfont.woff2') format('woff2'), url('/wp-content/themes/energielinq-theme/fonts/museo-sans-100-italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+*/
+
+/*
+@font-face {
+    font-family: museo_sans_100;
+    src: url('/wp-content/themes/energielinq-theme/fonts/museo-sans-100-regular-webfont.woff2') format('woff2'), url('/wp-content/themes/energielinq-theme/fonts/museo-sans-100-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+*/
+
+@font-face {
+    font-family: museo_sans_300_italic;
+    src: url('/wp-content/themes/energielinq-theme/fonts/museo-sans-300-italic-webfont.woff2') format('woff2'), url('/wp-content/themes/energielinq-theme/fonts/museo-sans-300-italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: museo_sans_300;
+    src: url('/wp-content/themes/energielinq-theme/fonts/museo-sans-300-regular-webfont.woff2') format('woff2'), url('/wp-content/themes/energielinq-theme/fonts/museo-sans-300-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: museo_sans_500_italic;
+    src: url('/wp-content/themes/energielinq-theme/fonts/museo-sans-500-italic-webfont.woff2') format('woff2'), url('/wp-content/themes/energielinq-theme/fonts/museo-sans-500-italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: museo_sans_500;
+    src: url('/wp-content/themes/energielinq-theme/fonts/museo-sans-500-regular-webfont.woff2') format('woff2'), url('/wp-content/themes/energielinq-theme/fonts/museo-sans-500-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: museo_sans_700_italic;
+    src: url('/wp-content/themes/energielinq-theme/fonts/museo-sans-700-italic-webfont.woff2') format('woff2'), url('/wp-content/themes/energielinq-theme/fonts/museo-sans-700-italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: museo_sans_700;
+    src: url('/wp-content/themes/energielinq-theme/fonts/museo-sans-700-regular-webfont.woff2') format('woff2'), url('/wp-content/themes/energielinq-theme/fonts/museo-sans-700-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+/*
+@font-face {
+    font-family: museo_sans_900_italic;
+    src: url('/wp-content/themes/energielinq-theme/fonts/museo-sans-900-italic-webfont.woff2') format('woff2'), url('/wp-content/themes/energielinq-theme/fonts/museo-sans-900-italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+*/
+
+/*
+@font-face {
+    font-family: museo_sans_900;
+    src: url('/wp-content/themes/energielinq-theme/fonts/museo-sans-900-regular-webfont.woff2') format('woff2'), url('/wp-content/themes/energielinq-theme/fonts/museo-sans-900-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+*/
+
+body {
+    font-family: museo_sans_300, sans-serif;
+}

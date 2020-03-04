@@ -64,7 +64,7 @@ tr,
 th,
 td {
 	border: 0;
-	font-family: 'Poppins', sans-serif;
+	font-family: museo_sans_300, sans-serif;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: 400;
@@ -78,12 +78,18 @@ html h1,
 html h2,
 html h3 {
 	color: #4BAA82;
-	font-weight: 600;
+	font-family: museo_sans_700;
+	font-weight: 700;
+}
+
+html em,
+html i {
+	font-family: museo_sans_300_italic;
 }
 
 html body {
 	background-color: #fff;
-	color: #637282;
+	color: #3e3e3e;
 }
 
 html .branding {
@@ -125,17 +131,23 @@ html .comment-reply-link:focus {
 
 html .header .nav li a {
 	color: #3e3e3e;
-	font-weight: 600;
+	font-family: museo_sans_700;
 }
 
 html .site-description {
-	color: #637282;
+	color: #3e3e3e;
 	font-size: .75em;
 	text-transform: uppercase;
 }
 
 html .intro h2 {
 	color: #3e3e3e;
+}
+
+html .searchform input[type=text] {
+	width: calc(100% - 47px);
+	font-family: museo_sans_500;
+	font-weight: 500;
 }
 
 html .main {
@@ -155,10 +167,12 @@ html .entry-title {
 	color: #4BAA82;
 }
 
+html .block .entry-content p,
 html .home .one-third .block .entry-content p,
 html .archive .one-third .block .entry-content p,
 html .search .one-third .block .entry-content p {
-	font-size: 1em;
+	font-size: 16px;
+	line-height: 26px;
 }
 
 html .breadcrumbs {
@@ -171,15 +185,14 @@ html .form-submit .submit,
 form input[type="submit"] {
 	background-color: #4BAA82;
 	box-shadow: none;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 600;
+	font-family: museo_sans_700;
 	padding: .75em 1.25em
 }
 
 html .comments-title,
 html .comment-reply-title,
 html .copyright a {
-	color: #637282;
+	color: #3e3e3e;
 }
 
 html .bottom {
@@ -191,7 +204,7 @@ html .bottom h3 {
 }
 
 html .bottom a {
-	color: #637282;
+	color: #3e3e3e;
 }
 
 html .menu-toggle,
@@ -201,7 +214,7 @@ html .menu-toggle,
 
 html b,
 html strong {
-	font-weight: 600;
+	font-family: museo_sans_700;
 }
 
 .footer-logo {
@@ -455,7 +468,7 @@ ul.expert-info {
 
 .wide a,
 .result a {
-	color: #404040;
+	color: #3e3e3e;
 }
 
 .wide img,

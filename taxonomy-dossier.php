@@ -3,10 +3,10 @@
 <div class="row intro">
 	<div class="col">
 		<div class="block">
-			<h2><?php single_term_title( 'Dossier ' ); ?></h2>
+			<h2><?php single_term_title(__('Dossier','energielinq') . ' ', 'energielinq'); ?></h2>
 			<?php $description = term_description(); ?>
 			<p><?php echo $description; ?></p>
-			<h3><?php single_term_title( 'Artikelen over ' ); ?></h3>
+			<h3><?php single_term_title(__('Articles about','energielinq') . ' ', 'energielinq'); ?></h3>
 		</div>
 	</div>
 </div>
