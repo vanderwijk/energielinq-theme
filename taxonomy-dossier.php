@@ -32,7 +32,7 @@
 
 				if ( $post_type == 'link' ) {
 					$link = $post_meta['url'][0];
-					$link_rel = 'external';
+					$link_rel = 'rel="external"';
 				} else {
 					$link = get_the_permalink();
 					$link_rel = '';
@@ -42,16 +42,16 @@
 
 				<div class="wide flex">
 					<div class="thumbnail">
-						<a href="<?php echo $link; ?>" rel="<?php echo $link_rel; ?>">
+						<a href="<?php echo $link; ?>" <?php echo $link_rel; ?>>
 							<img src="<?php if ($featured_image[0]) { echo $featured_image[0]; } else { echo '/wp-content/themes/energielinq-theme/img/link-thumbnail.svg'; } ?>" alt="">
 						</a>
 					</div>
 					<div class="description">
-						<a href="<?php echo $link; ?>" rel="<?php echo $link_rel; ?>">
+						<a href="<?php echo $link; ?>" <?php echo $link_rel; ?>>
 							<h3><?php echo get_the_title(); ?></h3>
 							<?php the_excerpt(); ?>
 						</a>
-						<a href="<?php echo $link; ?>" rel="<?php echo $link_rel; ?>" class="read-more"><?php echo $readmore; ?></a>
+						<a href="<?php echo $link; ?>" <?php echo $link_rel; ?> class="read-more"><?php echo $readmore; ?></a>
 					</div>
 				</div>
 
