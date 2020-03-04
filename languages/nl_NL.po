@@ -4,10 +4,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Stack\n"
-"POT-Creation-Date: 2018-04-18 13:55-0700\n"
-"PO-Revision-Date: \n"
-"Language-Team: Stack Team\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2020-03-04 10:54+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Johan van der Wijk <johan@vanderwijk.nl>\n"
+"Language-Team: Stack Team\n"
+"Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,1261 +20,974 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
 "_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 2.2.1\n"
-"Last-Translator: Johan van der Wijk <johan@vanderwijk.nl>\n"
-"Language: nl_NL\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: 404.php:7
-msgid "404"
-msgstr "404"
+#: archive-project.php:36
+msgid "Not Found"
+msgstr "Niet gevonden"
 
-#: 404.php:8
-msgid "The page you were looking for doesn't appear to exist."
-msgstr "De pagina die u zocht lijkt niet te bestaan of is verwijderd."
+#: content-expert.php:18 content-expert.php:53 content-post.php:18
+#: content-post.php:53 content-project.php:48
+msgid "by"
+msgstr "door"
 
-#: 404.php:9
-msgid "Go back to home page"
-msgstr "Ga naar home pagina"
+#: content-post.php:59
+msgid "Topic"
+msgstr "Onderwerp"
 
-#: admin/class-tgm-plugin-activation.php:327
-msgid "Install Required Plugins"
-msgstr "Installeer vereiste plugins"
+#: content-post.php:60
+msgid "Audience"
+msgstr "Doelgroep"
 
-#: admin/class-tgm-plugin-activation.php:328
-msgid "Install Plugins"
-msgstr "Installeer plugins"
+#: content-project.php:111
+msgid "Links"
+msgstr "Links"
 
-#: admin/class-tgm-plugin-activation.php:330
+#~ msgid "404"
+#~ msgstr "404"
+
+#~ msgid "The page you were looking for doesn't appear to exist."
+#~ msgstr "De pagina die u zocht lijkt niet te bestaan of is verwijderd."
+
+#~ msgid "Go back to home page"
+#~ msgstr "Ga naar home pagina"
+
+#~ msgid "Install Required Plugins"
+#~ msgstr "Installeer vereiste plugins"
+
+#~ msgid "Install Plugins"
+#~ msgstr "Installeer plugins"
+
 #, php-format
-msgid "Installing Plugin: %s"
-msgstr "Plugin installeren: %s"
+#~ msgid "Installing Plugin: %s"
+#~ msgstr "Plugin installeren: %s"
 
-#: admin/class-tgm-plugin-activation.php:332
 #, php-format
-msgid "Updating Plugin: %s"
-msgstr "Updaten Plugin: %s"
+#~ msgid "Updating Plugin: %s"
+#~ msgstr "Updaten Plugin: %s"
 
-#: admin/class-tgm-plugin-activation.php:333
 #, fuzzy
-msgid "Something went wrong with the plugin API."
-msgstr "Er ging iets mis met de plugin API."
+#~ msgid "Something went wrong with the plugin API."
+#~ msgstr "Er ging iets mis met de plugin API."
 
-#: admin/class-tgm-plugin-activation.php:336
 #, fuzzy, php-format
-msgid "This theme requires the following plugin: %1$s."
-msgid_plural "This theme requires the following plugins: %1$s."
-msgstr[0] "Dit thema vereist de volgende plugin: %1$s."
-msgstr[1] "Dit thema vereist de volgende plugins: %1$s."
+#~ msgid "This theme requires the following plugin: %1$s."
+#~ msgid_plural "This theme requires the following plugins: %1$s."
+#~ msgstr[0] "Dit thema vereist de volgende plugin: %1$s."
+#~ msgstr[1] "Dit thema vereist de volgende plugins: %1$s."
 
-#: admin/class-tgm-plugin-activation.php:342
 #, fuzzy, php-format
-msgid "This theme recommends the following plugin: %1$s."
-msgid_plural "This theme recommends the following plugins: %1$s."
-msgstr[0] "Dit thema beveelt de volgende plugins aan: %1$s."
-msgstr[1] "Dit thema beveelt de volgende plugins aan: %1$s."
+#~ msgid "This theme recommends the following plugin: %1$s."
+#~ msgid_plural "This theme recommends the following plugins: %1$s."
+#~ msgstr[0] "Dit thema beveelt de volgende plugins aan: %1$s."
+#~ msgstr[1] "Dit thema beveelt de volgende plugins aan: %1$s."
 
-#: admin/class-tgm-plugin-activation.php:348
 #, fuzzy, php-format
-msgid ""
-"The following plugin needs to be updated to its latest version to ensure "
-"maximum compatibility with this theme: %1$s."
-msgid_plural ""
-"The following plugins need to be updated to their latest version to ensure "
-"maximum compatibility with this theme: %1$s."
-msgstr[0] ""
-"De volgende plugin moet worden bijgewerkt naar de nieuwste versie voor "
-"maximale compatibiliteit met dit thema: %1$s."
-msgstr[1] ""
-"De volgende plugins moeten worden bijgewerkt om hun nieuwste versie voor "
-"maximale compatibiliteit met dit thema: %1$s."
+#~ msgid ""
+#~ "The following plugin needs to be updated to its latest version to ensure "
+#~ "maximum compatibility with this theme: %1$s."
+#~ msgid_plural ""
+#~ "The following plugins need to be updated to their latest version to "
+#~ "ensure maximum compatibility with this theme: %1$s."
+#~ msgstr[0] ""
+#~ "De volgende plugin moet worden bijgewerkt naar de nieuwste versie voor "
+#~ "maximale compatibiliteit met dit thema: %1$s."
+#~ msgstr[1] ""
+#~ "De volgende plugins moeten worden bijgewerkt om hun nieuwste versie voor "
+#~ "maximale compatibiliteit met dit thema: %1$s."
 
-#: admin/class-tgm-plugin-activation.php:354
 #, fuzzy, php-format
-msgid "There is an update available for: %1$s."
-msgid_plural "There are updates available for the following plugins: %1$s."
-msgstr[0] "Er is een update beschikbaar voor: %1$s."
-msgstr[1] "Er zijn updates beschikbaar voor: %1$s."
+#~ msgid "There is an update available for: %1$s."
+#~ msgid_plural "There are updates available for the following plugins: %1$s."
+#~ msgstr[0] "Er is een update beschikbaar voor: %1$s."
+#~ msgstr[1] "Er zijn updates beschikbaar voor: %1$s."
 
-#: admin/class-tgm-plugin-activation.php:360
 #, fuzzy, php-format
-msgid "The following required plugin is currently inactive: %1$s."
-msgid_plural "The following required plugins are currently inactive: %1$s."
-msgstr[0] "De volgende vereiste plugin is momenteel inactief: %1$s."
-msgstr[1] "De volgende benodigde plugins zijn momenteel inactief: %1$s."
+#~ msgid "The following required plugin is currently inactive: %1$s."
+#~ msgid_plural "The following required plugins are currently inactive: %1$s."
+#~ msgstr[0] "De volgende vereiste plugin is momenteel inactief: %1$s."
+#~ msgstr[1] "De volgende benodigde plugins zijn momenteel inactief: %1$s."
 
-#: admin/class-tgm-plugin-activation.php:366
 #, fuzzy, php-format
-msgid "The following recommended plugin is currently inactive: %1$s."
-msgid_plural "The following recommended plugins are currently inactive: %1$s."
-msgstr[0] "De volgende aanbevolen plugin is momenteel inactief: %1$s."
-msgstr[1] "De volgende aanbevolen plugins zijn momenteel inactief: %1$s."
+#~ msgid "The following recommended plugin is currently inactive: %1$s."
+#~ msgid_plural ""
+#~ "The following recommended plugins are currently inactive: %1$s."
+#~ msgstr[0] "De volgende aanbevolen plugin is momenteel inactief: %1$s."
+#~ msgstr[1] "De volgende aanbevolen plugins zijn momenteel inactief: %1$s."
 
-#: admin/class-tgm-plugin-activation.php:371
 #, fuzzy
-msgid "Begin installing plugin"
-msgid_plural "Begin installing plugins"
-msgstr[0] "Beginnen met het installeren van de plugin"
-msgstr[1] "Beginnen met het installeren van de plugins"
+#~ msgid "Begin installing plugin"
+#~ msgid_plural "Begin installing plugins"
+#~ msgstr[0] "Beginnen met het installeren van de plugin"
+#~ msgstr[1] "Beginnen met het installeren van de plugins"
 
-#: admin/class-tgm-plugin-activation.php:376
 #, fuzzy
-msgid "Begin updating plugin"
-msgid_plural "Begin updating plugins"
-msgstr[0] "Beginnen met bijwerken van de plugin"
-msgstr[1] "Beginnen met bijwerken van de plugins"
+#~ msgid "Begin updating plugin"
+#~ msgid_plural "Begin updating plugins"
+#~ msgstr[0] "Beginnen met bijwerken van de plugin"
+#~ msgstr[1] "Beginnen met bijwerken van de plugins"
 
-#: admin/class-tgm-plugin-activation.php:381
 #, fuzzy
-msgid "Begin activating plugin"
-msgid_plural "Begin activating plugins"
-msgstr[0] "Beginnen met het activeren van de plugin"
-msgstr[1] "Beginnen met het activeren van de plugins"
+#~ msgid "Begin activating plugin"
+#~ msgid_plural "Begin activating plugins"
+#~ msgstr[0] "Beginnen met het activeren van de plugin"
+#~ msgstr[1] "Beginnen met het activeren van de plugins"
 
-#: admin/class-tgm-plugin-activation.php:385
 #, fuzzy
-msgid "Return to Required Plugins Installer"
-msgstr "Return to Required Plugins Installer"
+#~ msgid "Return to Required Plugins Installer"
+#~ msgstr "Return to Required Plugins Installer"
 
-#: admin/class-tgm-plugin-activation.php:386
-#: admin/class-tgm-plugin-activation.php:827
-#: admin/class-tgm-plugin-activation.php:2533
-#: admin/class-tgm-plugin-activation.php:3580
 #, fuzzy
-msgid "Return to the Dashboard"
-msgstr "Terug naar Dashboard"
+#~ msgid "Return to the Dashboard"
+#~ msgstr "Terug naar Dashboard"
 
-#: admin/class-tgm-plugin-activation.php:387
-#: admin/class-tgm-plugin-activation.php:3159
 #, fuzzy
-msgid "Plugin activated successfully."
-msgstr "Plugin succesvol geactiveerd."
+#~ msgid "Plugin activated successfully."
+#~ msgstr "Plugin succesvol geactiveerd."
 
-#: admin/class-tgm-plugin-activation.php:388
-#: admin/class-tgm-plugin-activation.php:2952
 #, fuzzy
-msgid "The following plugin was activated successfully:"
-msgid_plural "The following plugins were activated successfully:"
-msgstr[0] "De volgende plugin is succesvol geactiveerd:"
-msgstr[1] "De volgende plugins zijn met succes geactiveerd: "
+#~ msgid "The following plugin was activated successfully:"
+#~ msgid_plural "The following plugins were activated successfully:"
+#~ msgstr[0] "De volgende plugin is succesvol geactiveerd:"
+#~ msgstr[1] "De volgende plugins zijn met succes geactiveerd: "
 
-#: admin/class-tgm-plugin-activation.php:390
 #, fuzzy, php-format
-msgid "No action taken. Plugin %1$s was already active."
-msgstr "Geen actie uitgevoerd. De plugin %1$s was al geactiveerd."
+#~ msgid "No action taken. Plugin %1$s was already active."
+#~ msgstr "Geen actie uitgevoerd. De plugin %1$s was al geactiveerd."
 
-#: admin/class-tgm-plugin-activation.php:392
 #, fuzzy, php-format
-msgid ""
-"Plugin not activated. A higher version of %s is needed for this theme. "
-"Please update the plugin."
-msgstr ""
-"De plugin is niet geactiveerd. Een nieuwere versie van %s is noodzakelijk "
-"voor dit thema. Werk de plugin bij."
+#~ msgid ""
+#~ "Plugin not activated. A higher version of %s is needed for this theme. "
+#~ "Please update the plugin."
+#~ msgstr ""
+#~ "De plugin is niet geactiveerd. Een nieuwere versie van %s is noodzakelijk "
+#~ "voor dit thema. Werk de plugin bij."
 
-#: admin/class-tgm-plugin-activation.php:394
 #, fuzzy, php-format
-msgid "All plugins installed and activated successfully. %1$s"
-msgstr "Alle plug-ins zijn succesvol geactiveerd. %1$s"
+#~ msgid "All plugins installed and activated successfully. %1$s"
+#~ msgstr "Alle plug-ins zijn succesvol geactiveerd. %1$s"
 
-#: admin/class-tgm-plugin-activation.php:395
 #, fuzzy
-msgid "Dismiss this notice"
-msgstr "Negeer deze melding"
+#~ msgid "Dismiss this notice"
+#~ msgstr "Negeer deze melding"
 
-#: admin/class-tgm-plugin-activation.php:396
 #, fuzzy
-msgid ""
-"There are one or more required or recommended plugins to install, update or "
-"activate."
-msgstr ""
-"Er zijn één of meerdere vereiste of aanbevolen plugins om te installeren, "
-"bij te werken of te activeren."
+#~ msgid ""
+#~ "There are one or more required or recommended plugins to install, update "
+#~ "or activate."
+#~ msgstr ""
+#~ "Er zijn één of meerdere vereiste of aanbevolen plugins om te installeren, "
+#~ "bij te werken of te activeren."
 
-#: admin/class-tgm-plugin-activation.php:397
 #, fuzzy
-msgid "Please contact the administrator of this site for help."
-msgstr "Gelieve de administrator van deze website te contacteren voor hulp."
+#~ msgid "Please contact the administrator of this site for help."
+#~ msgstr "Gelieve de administrator van deze website te contacteren voor hulp."
 
-#: admin/class-tgm-plugin-activation.php:522
 #, fuzzy
-msgid "This plugin needs to be updated to be compatible with your theme."
-msgstr ""
-"Deze plugin moet worden ge-update voor een compatibele versie met dit thema."
+#~ msgid "This plugin needs to be updated to be compatible with your theme."
+#~ msgstr ""
+#~ "Deze plugin moet worden ge-update voor een compatibele versie met dit "
+#~ "thema."
 
-#: admin/class-tgm-plugin-activation.php:523
 #, fuzzy
-msgid "Update Required"
-msgstr "Update Vereist"
+#~ msgid "Update Required"
+#~ msgstr "Update Vereist"
 
-#: admin/class-tgm-plugin-activation.php:934
 #, fuzzy
-msgid ""
-"The remote plugin package does not contain a folder with the desired slug "
-"and renaming did not work."
-msgstr ""
-"Het gekozen plugin pakket bevat geen map met de gewenste slag en de "
-"naamswijziging heeft niet gewerkt."
+#~ msgid ""
+#~ "The remote plugin package does not contain a folder with the desired slug "
+#~ "and renaming did not work."
+#~ msgstr ""
+#~ "Het gekozen plugin pakket bevat geen map met de gewenste slag en de "
+#~ "naamswijziging heeft niet gewerkt."
 
-#: admin/class-tgm-plugin-activation.php:934
-#: admin/class-tgm-plugin-activation.php:937
 #, fuzzy
-msgid ""
-"Please contact the plugin provider and ask them to package their plugin "
-"according to the WordPress guidelines."
-msgstr ""
-"Gelieve contact op te nemen met de aanbieder van de plugin en vraag hen de "
-"plugin aan te leveren volgens de Wordpress richtlijnen."
+#~ msgid ""
+#~ "Please contact the plugin provider and ask them to package their plugin "
+#~ "according to the WordPress guidelines."
+#~ msgstr ""
+#~ "Gelieve contact op te nemen met de aanbieder van de plugin en vraag hen "
+#~ "de plugin aan te leveren volgens de Wordpress richtlijnen."
 
-#: admin/class-tgm-plugin-activation.php:937
 #, fuzzy
-msgid ""
-"The remote plugin package consists of more than one file, but the files are "
-"not packaged in a folder."
-msgstr ""
-"Het gekozen pluginpakket bestaat uit meer dan een bestand, maar de bestanden "
-"zijn niet samengepakt in een map."
+#~ msgid ""
+#~ "The remote plugin package consists of more than one file, but the files "
+#~ "are not packaged in a folder."
+#~ msgstr ""
+#~ "Het gekozen pluginpakket bestaat uit meer dan een bestand, maar de "
+#~ "bestanden zijn niet samengepakt in een map."
 
-#: admin/class-tgm-plugin-activation.php:1121
-#: admin/class-tgm-plugin-activation.php:2948
 #, fuzzy
-msgctxt "plugin A *and* plugin B"
-msgid "and"
-msgstr "en"
+#~ msgctxt "plugin A *and* plugin B"
+#~ msgid "and"
+#~ msgstr "en"
 
-#: admin/class-tgm-plugin-activation.php:1982
 #, fuzzy, php-format
-msgid "TGMPA v%s"
-msgstr "TGMPA v%s"
+#~ msgid "TGMPA v%s"
+#~ msgstr "TGMPA v%s"
 
-#: admin/class-tgm-plugin-activation.php:2273
 #, fuzzy
-msgid "Required"
-msgstr "Verplicht"
+#~ msgid "Required"
+#~ msgstr "Verplicht"
 
-#: admin/class-tgm-plugin-activation.php:2276
 #, fuzzy
-msgid "Recommended"
-msgstr "Aanbevolen"
+#~ msgid "Recommended"
+#~ msgstr "Aanbevolen"
 
-#: admin/class-tgm-plugin-activation.php:2292
 #, fuzzy
-msgid "WordPress Repository"
-msgstr "WordPress Repository"
+#~ msgid "WordPress Repository"
+#~ msgstr "WordPress Repository"
 
-#: admin/class-tgm-plugin-activation.php:2295
 #, fuzzy
-msgid "External Source"
-msgstr "Externe Bron"
+#~ msgid "External Source"
+#~ msgstr "Externe Bron"
 
-#: admin/class-tgm-plugin-activation.php:2298
 #, fuzzy
-msgid "Pre-Packaged"
-msgstr "Voorverpakt"
+#~ msgid "Pre-Packaged"
+#~ msgstr "Voorverpakt"
 
-#: admin/class-tgm-plugin-activation.php:2315
 #, fuzzy
-msgid "Not Installed"
-msgstr "Niet geïnstalleerd"
+#~ msgid "Not Installed"
+#~ msgstr "Niet geïnstalleerd"
 
-#: admin/class-tgm-plugin-activation.php:2319
 #, fuzzy
-msgid "Installed But Not Activated"
-msgstr "Geïnstalleerd maar niet geactiveerd"
+#~ msgid "Installed But Not Activated"
+#~ msgstr "Geïnstalleerd maar niet geactiveerd"
 
-#: admin/class-tgm-plugin-activation.php:2321
 #, fuzzy
-msgid "Active"
-msgstr "Actief"
+#~ msgid "Active"
+#~ msgstr "Actief"
 
-#: admin/class-tgm-plugin-activation.php:2327
 #, fuzzy
-msgid "Required Update not Available"
-msgstr "Verplichte update niet beschikbaar"
+#~ msgid "Required Update not Available"
+#~ msgstr "Verplichte update niet beschikbaar"
 
-#: admin/class-tgm-plugin-activation.php:2330
 #, fuzzy
-msgid "Requires Update"
-msgstr "Update Vereist"
+#~ msgid "Requires Update"
+#~ msgstr "Update Vereist"
 
-#: admin/class-tgm-plugin-activation.php:2333
 #, fuzzy
-msgid "Update recommended"
-msgstr "Update aanbevolen"
+#~ msgid "Update recommended"
+#~ msgstr "Update aanbevolen"
 
-#: admin/class-tgm-plugin-activation.php:2342
 #, fuzzy, php-format
-msgctxt "Install/Update Status"
-msgid "%1$s, %2$s"
-msgstr "%1$s, %2$s"
+#~ msgctxt "Install/Update Status"
+#~ msgid "%1$s, %2$s"
+#~ msgstr "%1$s, %2$s"
 
-#: admin/class-tgm-plugin-activation.php:2388
 #, fuzzy, php-format
-msgctxt "plugins"
-msgid "All <span class=\"count\">(%s)</span>"
-msgid_plural "All <span class=\"count\">(%s)</span>"
-msgstr[0] "Alle <span class=\"screen-reader-text\">(%s)</span>"
-msgstr[1] "Alle <span class=\"screen-reader-text\">(%s)</span>"
+#~ msgctxt "plugins"
+#~ msgid "All <span class=\"count\">(%s)</span>"
+#~ msgid_plural "All <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Alle <span class=\"screen-reader-text\">(%s)</span>"
+#~ msgstr[1] "Alle <span class=\"screen-reader-text\">(%s)</span>"
 
-#: admin/class-tgm-plugin-activation.php:2392
 #, fuzzy, php-format
-msgid "To Install <span class=\"count\">(%s)</span>"
-msgid_plural "To Install <span class=\"count\">(%s)</span>"
-msgstr[0] "Installeer <span class=\"count\">(%s)</span>"
-msgstr[1] "Installeer <span class=\"count\">(%s)</span>"
+#~ msgid "To Install <span class=\"count\">(%s)</span>"
+#~ msgid_plural "To Install <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Installeer <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "Installeer <span class=\"count\">(%s)</span>"
 
-#: admin/class-tgm-plugin-activation.php:2396
 #, fuzzy, php-format
-msgid "Update Available <span class=\"count\">(%s)</span>"
-msgid_plural "Update Available <span class=\"count\">(%s)</span>"
-msgstr[0] "Update beschikbaar <span class=\"count\">(%s)</span>"
-msgstr[1] "Update beschikbaar <span class=\"count\">(%s)</span>"
+#~ msgid "Update Available <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Update beschikbaar <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "Update beschikbaar <span class=\"count\">(%s)</span>"
 
-#: admin/class-tgm-plugin-activation.php:2400
 #, fuzzy, php-format
-msgid "To Activate <span class=\"count\">(%s)</span>"
-msgid_plural "To Activate <span class=\"count\">(%s)</span>"
-msgstr[0] "Activeer <span class=\"count\">(%s)</span>"
-msgstr[1] "Activeer <span class=\"count\">(%s)</span>"
+#~ msgid "To Activate <span class=\"count\">(%s)</span>"
+#~ msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Activeer <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "Activeer <span class=\"count\">(%s)</span>"
 
-#: admin/class-tgm-plugin-activation.php:2482
 #, fuzzy
-msgctxt "as in: \"version nr unknown\""
-msgid "unknown"
-msgstr "onbekend"
+#~ msgctxt "as in: \"version nr unknown\""
+#~ msgid "unknown"
+#~ msgstr "onbekend"
 
-#: admin/class-tgm-plugin-activation.php:2490
 #, fuzzy
-msgid "Installed version:"
-msgstr "Geïnstalleerde versie:"
+#~ msgid "Installed version:"
+#~ msgstr "Geïnstalleerde versie:"
 
-#: admin/class-tgm-plugin-activation.php:2498
 #, fuzzy
-msgid "Minimum required version:"
-msgstr "Minimaal vereiste versie:"
+#~ msgid "Minimum required version:"
+#~ msgstr "Minimaal vereiste versie:"
 
-#: admin/class-tgm-plugin-activation.php:2510
 #, fuzzy
-msgid "Available version:"
-msgstr "Beschikbare versie:"
+#~ msgid "Available version:"
+#~ msgstr "Beschikbare versie:"
 
-#: admin/class-tgm-plugin-activation.php:2533
 #, fuzzy
-msgid "No plugins to install, update or activate."
-msgstr "Geen plugins te installeren, updaten of te activeren."
+#~ msgid "No plugins to install, update or activate."
+#~ msgstr "Geen plugins te installeren, updaten of te activeren."
 
-#: admin/class-tgm-plugin-activation.php:2547
 #, fuzzy
-msgid "Plugin"
-msgstr "Plugin"
+#~ msgid "Plugin"
+#~ msgstr "Plugin"
 
-#: admin/class-tgm-plugin-activation.php:2548
 #, fuzzy
-msgid "Source"
-msgstr "Bron"
+#~ msgid "Source"
+#~ msgstr "Bron"
 
-#: admin/class-tgm-plugin-activation.php:2549
 #, fuzzy
-msgid "Type"
-msgstr "Type"
+#~ msgid "Type"
+#~ msgstr "Type"
 
-#: admin/class-tgm-plugin-activation.php:2553
 #, fuzzy
-msgid "Version"
-msgstr "Versie"
+#~ msgid "Version"
+#~ msgstr "Versie"
 
-#: admin/class-tgm-plugin-activation.php:2554
 #, fuzzy
-msgid "Status"
-msgstr "Status"
+#~ msgid "Status"
+#~ msgstr "Status"
 
-#: admin/class-tgm-plugin-activation.php:2603
 #, fuzzy, php-format
-msgid "Install %2$s"
-msgstr "Installeer %2$s"
+#~ msgid "Install %2$s"
+#~ msgstr "Installeer %2$s"
 
-#: admin/class-tgm-plugin-activation.php:2608
 #, fuzzy, php-format
-msgid "Update %2$s"
-msgstr "Update %2$s"
+#~ msgid "Update %2$s"
+#~ msgstr "Update %2$s"
 
-#: admin/class-tgm-plugin-activation.php:2614
 #, fuzzy, php-format
-msgid "Activate %2$s"
-msgstr "Activeer %2$s"
+#~ msgid "Activate %2$s"
+#~ msgstr "Activeer %2$s"
 
-#: admin/class-tgm-plugin-activation.php:2684
 #, fuzzy
-msgid "Upgrade message from the plugin author:"
-msgstr "Upgrade melding van de plugin-auteur:"
+#~ msgid "Upgrade message from the plugin author:"
+#~ msgstr "Upgrade melding van de plugin-auteur:"
 
-#: admin/class-tgm-plugin-activation.php:2717
 #, fuzzy
-msgid "Install"
-msgstr "Installeer"
+#~ msgid "Install"
+#~ msgstr "Installeer"
 
-#: admin/class-tgm-plugin-activation.php:2723
 #, fuzzy
-msgid "Update"
-msgstr "Bijwerken"
+#~ msgid "Update"
+#~ msgstr "Bijwerken"
 
-#: admin/class-tgm-plugin-activation.php:2726
 #, fuzzy
-msgid "Activate"
-msgstr "Activeren"
+#~ msgid "Activate"
+#~ msgstr "Activeren"
 
-#: admin/class-tgm-plugin-activation.php:2757
 #, fuzzy
-msgid "No plugins were selected to be installed. No action taken."
-msgstr ""
-"Er zijn geen plugins geselecteerd om te installeren. Geen actie ondernomen."
+#~ msgid "No plugins were selected to be installed. No action taken."
+#~ msgstr ""
+#~ "Er zijn geen plugins geselecteerd om te installeren. Geen actie "
+#~ "ondernomen."
 
-#: admin/class-tgm-plugin-activation.php:2759
 #, fuzzy
-msgid "No plugins were selected to be updated. No action taken."
-msgstr ""
-"Er zijn geen plugins geselecteerd om bij te werken. Geen actie ondernomen."
+#~ msgid "No plugins were selected to be updated. No action taken."
+#~ msgstr ""
+#~ "Er zijn geen plugins geselecteerd om bij te werken. Geen actie ondernomen."
 
-#: admin/class-tgm-plugin-activation.php:2800
 #, fuzzy
-msgid "No plugins are available to be installed at this time."
-msgstr "Er zijn op dit moment geen plugins beschikbaar om te installeren."
+#~ msgid "No plugins are available to be installed at this time."
+#~ msgstr "Er zijn op dit moment geen plugins beschikbaar om te installeren."
 
-#: admin/class-tgm-plugin-activation.php:2802
 #, fuzzy
-msgid "No plugins are available to be updated at this time."
-msgstr "Er zijn op dit moment geen plugins beschikbaar om bij te werken."
+#~ msgid "No plugins are available to be updated at this time."
+#~ msgstr "Er zijn op dit moment geen plugins beschikbaar om bij te werken."
 
-#: admin/class-tgm-plugin-activation.php:2908
 #, fuzzy
-msgid "No plugins were selected to be activated. No action taken."
-msgstr ""
-"Er zijn geen plugins geselecteerd om te activeren. Geen actie ondernomen."
+#~ msgid "No plugins were selected to be activated. No action taken."
+#~ msgstr ""
+#~ "Er zijn geen plugins geselecteerd om te activeren. Geen actie ondernomen."
 
-#: admin/class-tgm-plugin-activation.php:2934
 #, fuzzy
-msgid "No plugins are available to be activated at this time."
-msgstr "Er zijn op dit moment geen plugins beschikbaar om te activeren."
+#~ msgid "No plugins are available to be activated at this time."
+#~ msgstr "Er zijn op dit moment geen plugins beschikbaar om te activeren."
 
-#: admin/class-tgm-plugin-activation.php:3158
 #, fuzzy
-msgid "Plugin activation failed."
-msgstr "Plugin activatie mislukt."
+#~ msgid "Plugin activation failed."
+#~ msgstr "Plugin activatie mislukt."
 
-#: admin/class-tgm-plugin-activation.php:3498
 #, fuzzy, php-format
-msgid "Updating Plugin %1$s (%2$d/%3$d)"
-msgstr "Plugin bijwerken %1$s (%2$d/%3$d)"
+#~ msgid "Updating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "Plugin bijwerken %1$s (%2$d/%3$d)"
 
-#: admin/class-tgm-plugin-activation.php:3501
 #, fuzzy, php-format
-msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr ""
-"Er is een fout opgetreden tijdens de installatie van %1$s: <strong>%2$s</"
-"strong>."
+#~ msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+#~ msgstr ""
+#~ "Er is een fout opgetreden tijdens de installatie van %1$s: <strong>%2$s</"
+#~ "strong>."
 
-#: admin/class-tgm-plugin-activation.php:3503
 #, fuzzy, php-format
-msgid "The installation of %1$s failed."
-msgstr "De installatie van %1$s is mislukt."
+#~ msgid "The installation of %1$s failed."
+#~ msgstr "De installatie van %1$s is mislukt."
 
-#: admin/class-tgm-plugin-activation.php:3507
 #, fuzzy
-msgid ""
-"The installation and activation process is starting. This process may take a "
-"while on some hosts, so please be patient."
-msgstr "Installatie en activatieproces gestart. Dit kan even duren."
+#~ msgid ""
+#~ "The installation and activation process is starting. This process may "
+#~ "take a while on some hosts, so please be patient."
+#~ msgstr "Installatie en activatieproces gestart. Dit kan even duren."
 
-#: admin/class-tgm-plugin-activation.php:3509
 #, fuzzy, php-format
-msgid "%1$s installed and activated successfully."
-msgstr "%1$s installed and activated successfully."
+#~ msgid "%1$s installed and activated successfully."
+#~ msgstr "%1$s installed and activated successfully."
 
-#: admin/class-tgm-plugin-activation.php:3509
-#: admin/class-tgm-plugin-activation.php:3517
 #, fuzzy
-msgid "Show Details"
-msgstr "Toon details"
+#~ msgid "Show Details"
+#~ msgstr "Toon details"
 
-#: admin/class-tgm-plugin-activation.php:3509
-#: admin/class-tgm-plugin-activation.php:3517
 #, fuzzy
-msgid "Hide Details"
-msgstr "Verberg details"
+#~ msgid "Hide Details"
+#~ msgstr "Verberg details"
 
-#: admin/class-tgm-plugin-activation.php:3510
 #, fuzzy
-msgid "All installations and activations have been completed."
-msgstr "Alle installaties en activities werden uitgevoerd."
+#~ msgid "All installations and activations have been completed."
+#~ msgstr "Alle installaties en activities werden uitgevoerd."
 
-#: admin/class-tgm-plugin-activation.php:3512
 #, fuzzy, php-format
-msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr "Installeren en activeren van plugin %1$s (%2$d/%3$d)"
+#~ msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "Installeren en activeren van plugin %1$s (%2$d/%3$d)"
 
-#: admin/class-tgm-plugin-activation.php:3515
 #, fuzzy
-msgid ""
-"The installation process is starting. This process may take a while on some "
-"hosts, so please be patient."
-msgstr "Installatieproces gestart. Dit kan even duren."
+#~ msgid ""
+#~ "The installation process is starting. This process may take a while on "
+#~ "some hosts, so please be patient."
+#~ msgstr "Installatieproces gestart. Dit kan even duren."
 
-#: admin/class-tgm-plugin-activation.php:3517
 #, fuzzy, php-format
-msgid "%1$s installed successfully."
-msgstr "%1$s is succesvol geïnstalleerd."
+#~ msgid "%1$s installed successfully."
+#~ msgstr "%1$s is succesvol geïnstalleerd."
 
-#: admin/class-tgm-plugin-activation.php:3518
 #, fuzzy
-msgid "All installations have been completed."
-msgstr "Alle installaties zijn voltooid."
+#~ msgid "All installations have been completed."
+#~ msgstr "Alle installaties zijn voltooid."
 
-#: admin/class-tgm-plugin-activation.php:3520
 #, fuzzy, php-format
-msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr "Installing Plugin %1$s (%2$d/%3$d)"
+#~ msgid "Installing Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "Installing Plugin %1$s (%2$d/%3$d)"
 
-#: admin/theme_filters.php:332
 #, fuzzy
-msgid "Gallery Layout"
-msgstr "Galerij layout"
+#~ msgid "Gallery Layout"
+#~ msgstr "Galerij layout"
 
-#: admin/theme_functions.php:173
 #, fuzzy
-msgid "Contact Form 7"
-msgstr "Contact Form 7"
+#~ msgid "Contact Form 7"
+#~ msgstr "Contact Form 7"
 
-#: admin/theme_functions.php:179
 #, fuzzy
-msgid "WP Less"
-msgstr "WP Less"
+#~ msgid "WP Less"
+#~ msgstr "WP Less"
 
-#: admin/theme_functions.php:185
 #, fuzzy
-msgid "Custom Metaboxes 2"
-msgstr "Custom:"
+#~ msgid "Custom Metaboxes 2"
+#~ msgstr "Custom:"
 
-#: admin/theme_functions.php:191
 #, fuzzy
-msgid "One Click Demo Import"
-msgstr "Eén klik Demo Import"
+#~ msgid "One Click Demo Import"
+#~ msgstr "Eén klik Demo Import"
 
-#: admin/theme_functions.php:203
 #, fuzzy
-msgid "Ebor Framework"
-msgstr "Ebor Framework"
+#~ msgid "Ebor Framework"
+#~ msgstr "Ebor Framework"
 
-#: admin/theme_functions.php:211
 #, fuzzy
-msgid "Visual Composer"
-msgstr "Visual Composer"
+#~ msgid "Visual Composer"
+#~ msgstr "Visual Composer"
 
-#: admin/theme_functions.php:219
 #, fuzzy
-msgid "Variant Page Builder"
-msgstr "Lettertype Variant"
+#~ msgid "Variant Page Builder"
+#~ msgstr "Lettertype Variant"
 
-#: admin/theme_functions.php:263
 #, fuzzy
-msgid "Home"
-msgstr "Home"
+#~ msgid "Home"
+#~ msgstr "Home"
 
-#: admin/theme_functions.php:279
-msgid "Careers"
-msgstr ""
+#~ msgid "Shop"
+#~ msgstr "Webshop"
 
-#: admin/theme_functions.php:284 admin/theme_functions.php:286
-msgid "Shop"
-msgstr "Webshop"
-
-#: admin/theme_functions.php:2753
 #, fuzzy
-msgid "Your comment is awaiting moderation."
-msgstr "Je reactie wacht op goedkeuring."
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "Je reactie wacht op goedkeuring."
 
-#: admin/theme_menus_widgets.php:13
 #, fuzzy
-msgid "Standard Navigation"
-msgstr "Standard Navigatie"
+#~ msgid "Standard Navigation"
+#~ msgstr "Standard Navigatie"
 
-#: admin/theme_menus_widgets.php:14
 #, fuzzy
-msgid "Slide-In Sidebar Navigation"
-msgstr "Offscreen & schuif navigatie"
+#~ msgid "Slide-In Sidebar Navigation"
+#~ msgstr "Offscreen & schuif navigatie"
 
-#: admin/theme_menus_widgets.php:15
 #, fuzzy
-msgid "Vertical Menu Navigation"
-msgstr "Verticale navigatie"
+#~ msgid "Vertical Menu Navigation"
+#~ msgstr "Verticale navigatie"
 
-#: admin/theme_menus_widgets.php:16
 #, fuzzy
-msgid "Footer Navigation"
-msgstr "Footer Navigatie"
+#~ msgid "Footer Navigation"
+#~ msgstr "Footer Navigatie"
 
-#: admin/theme_menus_widgets.php:17
 #, fuzzy
-msgid "Top Bar (Sub Header) Navigation"
-msgstr "Top Bar (Onder Header) Navigatie"
+#~ msgid "Top Bar (Sub Header) Navigation"
+#~ msgstr "Top Bar (Onder Header) Navigatie"
 
-#: admin/theme_menus_widgets.php:30
 #, fuzzy
-msgid "Blog Sidebar"
-msgstr "Blog Sidebar"
+#~ msgid "Blog Sidebar"
+#~ msgstr "Blog Sidebar"
 
-#: admin/theme_menus_widgets.php:31
 #, fuzzy
-msgid "Widgets to be displayed in the blog sidebar."
-msgstr "Widgets die zichtbaar zijn in de zijbalk van de blog"
+#~ msgid "Widgets to be displayed in the blog sidebar."
+#~ msgstr "Widgets die zichtbaar zijn in de zijbalk van de blog"
 
-#: admin/theme_menus_widgets.php:42
 #, fuzzy
-msgid "Page Sidebar"
-msgstr "Pagina zijbalk"
+#~ msgid "Page Sidebar"
+#~ msgstr "Pagina zijbalk"
 
-#: admin/theme_menus_widgets.php:43
 #, fuzzy
-msgid "Widgets to be displayed in the page sidebar."
-msgstr "Widgets die zichtbaar zijn in de zijbalk van de blog"
+#~ msgid "Widgets to be displayed in the page sidebar."
+#~ msgstr "Widgets die zichtbaar zijn in de zijbalk van de blog"
 
-#: admin/theme_menus_widgets.php:54
 #, fuzzy
-msgid "Shop Sidebar"
-msgstr "Winkel Zijbalk"
+#~ msgid "Shop Sidebar"
+#~ msgstr "Winkel Zijbalk"
 
-#: admin/theme_menus_widgets.php:55
 #, fuzzy
-msgid "Widgets to be displayed in the shop sidebar."
-msgstr "Widgets worden weergegeven in de winkel zijbalk."
+#~ msgid "Widgets to be displayed in the shop sidebar."
+#~ msgstr "Widgets worden weergegeven in de winkel zijbalk."
 
-#: admin/theme_menus_widgets.php:66
 #, fuzzy
-msgid "Footer Column 1"
-msgstr "Voettekst Kolom 1"
+#~ msgid "Footer Column 1"
+#~ msgstr "Voettekst Kolom 1"
 
-#: admin/theme_menus_widgets.php:67
 #, fuzzy
-msgid "If this is set, your footer will be 1 column"
-msgstr "Als dit is ingesteld, zal uw footer 1 kolom zijn"
+#~ msgid "If this is set, your footer will be 1 column"
+#~ msgstr "Als dit is ingesteld, zal uw footer 1 kolom zijn"
 
-#: admin/theme_menus_widgets.php:78
 #, fuzzy
-msgid "Footer Column 2"
-msgstr "Footer kolom 2"
+#~ msgid "Footer Column 2"
+#~ msgstr "Footer kolom 2"
 
-#: admin/theme_menus_widgets.php:79
 #, fuzzy
-msgid "If this & column 1 are set, your footer will be 2 columns."
-msgstr "Als dit & kolom 1 zijn ingesteld, zal uw footer zijn 2 kolommen zijn."
+#~ msgid "If this & column 1 are set, your footer will be 2 columns."
+#~ msgstr ""
+#~ "Als dit & kolom 1 zijn ingesteld, zal uw footer zijn 2 kolommen zijn."
 
-#: admin/theme_menus_widgets.php:90
 #, fuzzy
-msgid "Footer Column 3"
-msgstr "Footer kolom 3"
+#~ msgid "Footer Column 3"
+#~ msgstr "Footer kolom 3"
 
-#: admin/theme_menus_widgets.php:91
 #, fuzzy
-msgid "If this & column 1 & column 2 are set, your footer will be 3 columns."
-msgstr ""
-"Als dit & kolom 1 & kolom 2 & kolom 3 zijn ingesteld, zal uw footer 4 "
-"kolommen zijn."
+#~ msgid ""
+#~ "If this & column 1 & column 2 are set, your footer will be 3 columns."
+#~ msgstr ""
+#~ "Als dit & kolom 1 & kolom 2 & kolom 3 zijn ingesteld, zal uw footer 4 "
+#~ "kolommen zijn."
 
-#: admin/theme_menus_widgets.php:102
 #, fuzzy
-msgid "Footer Column 4"
-msgstr "Voettekst Kolom 4"
+#~ msgid "Footer Column 4"
+#~ msgstr "Voettekst Kolom 4"
 
-#: admin/theme_menus_widgets.php:103
 #, fuzzy
-msgid ""
-"If this & column 1 & column 2 & column 3 are set, your footer will be 4 "
-"columns."
-msgstr ""
-"Als dit & kolom 1 & kolom 2 & kolom 3 zijn ingesteld, zal uw footer 4 "
-"kolommen zijn."
+#~ msgid ""
+#~ "If this & column 1 & column 2 & column 3 are set, your footer will be 4 "
+#~ "columns."
+#~ msgstr ""
+#~ "Als dit & kolom 1 & kolom 2 & kolom 3 zijn ingesteld, zal uw footer 4 "
+#~ "kolommen zijn."
 
-#: admin/theme_metaboxes.php:34
 #, fuzzy
-msgid "Team Member Details"
-msgstr "Teamlid Details"
+#~ msgid "Team Member Details"
+#~ msgstr "Teamlid Details"
 
-#: admin/theme_metaboxes.php:41 admin/theme_metaboxes.php:85
 #, fuzzy
-msgid "Job Title"
-msgstr "Functie"
+#~ msgid "Job Title"
+#~ msgstr "Functie"
 
-#: admin/theme_metaboxes.php:50
 #, fuzzy
-msgid "Add Another Icon"
-msgstr "Voeg ander pictogram toe"
+#~ msgid "Add Another Icon"
+#~ msgstr "Voeg ander pictogram toe"
 
-#: admin/theme_metaboxes.php:51
 #, fuzzy
-msgid "Remove Icon"
-msgstr "Icoon verwijderen"
+#~ msgid "Remove Icon"
+#~ msgstr "Icoon verwijderen"
 
-#: admin/theme_metaboxes.php:63
 #, fuzzy
-msgid "URL for Social Icon"
-msgstr "URL voor Social Icon"
+#~ msgid "URL for Social Icon"
+#~ msgstr "URL voor Social Icon"
 
-#: admin/theme_metaboxes.php:64
 #, fuzzy
-msgid "Enter the URL for Social Icon 1 e.g www.google.com"
-msgstr "Voer de URL van Social Icoon 1 in, bv www.google.com"
+#~ msgid "Enter the URL for Social Icon 1 e.g www.google.com"
+#~ msgstr "Voer de URL van Social Icoon 1 in, bv www.google.com"
 
-#: admin/theme_metaboxes.php:78
 #, fuzzy
-msgid "Testimonial Details"
-msgstr "Ervaring Details"
+#~ msgid "Testimonial Details"
+#~ msgstr "Ervaring Details"
 
-#: admin/theme_metaboxes.php:94
 #, fuzzy
-msgid "Career Details"
-msgstr "Vacature gegevens"
+#~ msgid "Career Details"
+#~ msgstr "Vacature gegevens"
 
-#: admin/theme_metaboxes.php:101
 #, fuzzy
-msgid "Job Location"
-msgstr "Vacature locatie"
+#~ msgid "Job Location"
+#~ msgstr "Vacature locatie"
 
-#: admin/theme_metaboxes.php:108
-msgid "Additional Meta Titles & Descriptions"
-msgstr ""
-
-#: admin/theme_metaboxes.php:110
 #, fuzzy
-msgid "Add Another Entry"
-msgstr "Nog een item toevoegen"
+#~ msgid "Add Another Entry"
+#~ msgstr "Nog een item toevoegen"
 
-#: admin/theme_metaboxes.php:111
 #, fuzzy
-msgid "Remove Entry"
-msgstr "Verwijder item"
+#~ msgid "Remove Entry"
+#~ msgstr "Verwijder item"
 
-#: admin/theme_metaboxes.php:116
 #, fuzzy
-msgid "Additional Item Title"
-msgstr "Extra Item Titel"
+#~ msgid "Additional Item Title"
+#~ msgstr "Extra Item Titel"
 
-#: admin/theme_metaboxes.php:117
 #, fuzzy
-msgid "Title of your Additional Meta"
-msgstr "Titel van je Extra Meta"
+#~ msgid "Title of your Additional Meta"
+#~ msgstr "Titel van je Extra Meta"
 
-#: admin/theme_metaboxes.php:122
 #, fuzzy
-msgid "Additional Item Content"
-msgstr "Extra Item titel"
+#~ msgid "Additional Item Content"
+#~ msgstr "Extra Item titel"
 
-#: admin/theme_metaboxes.php:123
 #, fuzzy
-msgid "Content of your Additional Meta"
-msgstr "Inhoud van je Extra Meta"
+#~ msgid "Content of your Additional Meta"
+#~ msgstr "Inhoud van je Extra Meta"
 
-#: admin/theme_metaboxes.php:147
 #, fuzzy
-msgid "Menus to Show in Mega Menu Dropdown"
-msgstr "Menu’s die moeten worden weergegeven in het Mega Dropdown Menu"
-
-#: admin/theme_metaboxes.php:200
-msgid "Top Level URL Link"
-msgstr ""
+#~ msgid "Menus to Show in Mega Menu Dropdown"
+#~ msgstr "Menu’s die moeten worden weergegeven in het Mega Dropdown Menu"
 
-#: admin/theme_metaboxes.php:201
-msgid ""
-"If you're using the hover option for menu dropdowns, entering a URL here "
-"will allow the top level link this mega menu generates to be clickable"
-msgstr ""
-
-#: admin/theme_metaboxes.php:213
 #, fuzzy
-msgid "Page Overrides"
-msgstr "Pagina overschrijvingen"
+#~ msgid "Page Overrides"
+#~ msgstr "Pagina overschrijvingen"
 
-#: admin/theme_metaboxes.php:220
 #, fuzzy
-msgid "Override Header?"
-msgstr "Overschrijf Header?"
+#~ msgid "Override Header?"
+#~ msgstr "Overschrijf Header?"
 
-#: admin/theme_metaboxes.php:221
 #, fuzzy
-msgid ""
-"Header Layout is set in \"appearance\" -> \"customise\". To override this "
-"for this page only, use this control."
-msgstr ""
-"Header layout is ingesteld onder \"weergave\" -> \"customizer\". Om voor "
-"alleen deze pagina te overschijven, deze optie gebruiken."
+#~ msgid ""
+#~ "Header Layout is set in \"appearance\" -> \"customise\". To override this "
+#~ "for this page only, use this control."
+#~ msgstr ""
+#~ "Header layout is ingesteld onder \"weergave\" -> \"customizer\". Om voor "
+#~ "alleen deze pagina te overschijven, deze optie gebruiken."
 
-#: admin/theme_metaboxes.php:228
 #, fuzzy
-msgid "Override Footer?"
-msgstr "Footer overschijven?"
+#~ msgid "Override Footer?"
+#~ msgstr "Footer overschijven?"
 
-#: admin/theme_metaboxes.php:229
 #, fuzzy
-msgid ""
-"Footer Layout is set in \"appearance\" -> \"customise\". To override this "
-"for this page only, use this control."
-msgstr ""
-"Footer layout is ingesteld onder \"weergave\" -> \"customizer\". Om voor "
-"alleen deze pagina te overschijven, deze optie gebruiken."
+#~ msgid ""
+#~ "Footer Layout is set in \"appearance\" -> \"customise\". To override this "
+#~ "for this page only, use this control."
+#~ msgstr ""
+#~ "Footer layout is ingesteld onder \"weergave\" -> \"customizer\". Om voor "
+#~ "alleen deze pagina te overschijven, deze optie gebruiken."
 
-#: admin/theme_metaboxes.php:236
 #, fuzzy
-msgid "Use boxed layout for this page?"
-msgstr "Boxed layout gebruiken voor deze pagina?"
-
-#: admin/theme_metaboxes.php:237
-msgid ""
-"Boxed layout is set in \"appearance\" -> \"customise\" -> \"site settings\". "
-"To override this for this page only, use this control."
-msgstr ""
+#~ msgid "Use boxed layout for this page?"
+#~ msgstr "Boxed layout gebruiken voor deze pagina?"
 
-#: admin/theme_metaboxes.php:248
 #, fuzzy
-msgid "Use square buttons for this page?"
-msgstr "Vierkante buttons gebruiken voor deze pagina?"
+#~ msgid "Use square buttons for this page?"
+#~ msgstr "Vierkante buttons gebruiken voor deze pagina?"
 
-#: admin/theme_metaboxes.php:249
-msgid ""
-"Square buttons are set in \"appearance\" -> \"customise\" -> \"site settings"
-"\". To override this for this page only, use this control."
-msgstr ""
-
-#: admin/theme_metaboxes.php:260
 #, fuzzy
-msgid "Use page navigator in this page?"
-msgstr "Pagina navigator gebruiken op deze pagina?"
+#~ msgid "Use page navigator in this page?"
+#~ msgstr "Pagina navigator gebruiken op deze pagina?"
 
-#: admin/theme_metaboxes.php:261
 #, fuzzy
-msgid ""
-"Set IDs on your rows in Visual Composer, or use the rename feature for "
-"sections in Variant."
-msgstr ""
-"Stel ID’s in op rijen in Visual Composer, of gebruik de hernoem functie voor "
-"secties in Variant."
+#~ msgid ""
+#~ "Set IDs on your rows in Visual Composer, or use the rename feature for "
+#~ "sections in Variant."
+#~ msgstr ""
+#~ "Stel ID’s in op rijen in Visual Composer, of gebruik de hernoem functie "
+#~ "voor secties in Variant."
 
-#: admin/theme_scripts.php:87
 #, fuzzy
-msgctxt "Google font: on or off"
-msgid "on"
-msgstr "op"
-
-#: author.php:6
-msgid "Posts By: "
-msgstr "Berichten van:"
+#~ msgctxt "Google font: on or off"
+#~ msgid "on"
+#~ msgstr "op"
 
-#: comments.php:9
-msgid "Your Name"
-msgstr "Je naam"
+#~ msgid "Posts By: "
+#~ msgstr "Berichten van:"
 
-#: comments.php:9
-msgid "Type name here"
-msgstr "Type je naam hier"
+#~ msgid "Your Name"
+#~ msgstr "Je naam"
 
-#: comments.php:10
-msgid "Email Address"
-msgstr "E-mailadres"
+#~ msgid "Type name here"
+#~ msgstr "Type je naam hier"
 
-#: comments.php:10
-msgid "you@example.com"
-msgstr ""
+#~ msgid "Email Address"
+#~ msgstr "E-mailadres"
 
-#: comments.php:11
-msgid "Your URL"
-msgstr "Je website"
+#~ msgid "Your URL"
+#~ msgstr "Je website"
 
-#: comments.php:11
-msgid "example.com"
-msgstr "voorbeeld.nl"
+#~ msgid "example.com"
+#~ msgstr "voorbeeld.nl"
 
-#: comments.php:13
-msgid "Comment"
-msgstr "Reactie"
+#~ msgid "Comment"
+#~ msgstr "Reactie"
 
-#: comments.php:13
-msgid "Your comment here"
-msgstr "Typ hier je reactie"
+#~ msgid "Your comment here"
+#~ msgstr "Typ hier je reactie"
 
-#: comments.php:14
-msgid "Cancel"
-msgstr "Annuleren"
+#~ msgid "Cancel"
+#~ msgstr "Annuleren"
 
-#: comments.php:17
-msgid "Submit Comment"
-msgstr "Verstuur reactie"
+#~ msgid "Submit Comment"
+#~ msgstr "Verstuur reactie"
 
-#: comments.php:40
-msgid "0 Comments"
-msgstr "0 Reacties"
+#~ msgid "0 Comments"
+#~ msgstr "0 Reacties"
 
-#: comments.php:41
-msgid "1 Comment"
-msgstr "1 Reactie"
+#~ msgid "1 Comment"
+#~ msgstr "1 Reactie"
 
-#: comments.php:42
-msgid "% Comments"
-msgstr "% Reacties"
+#~ msgid "% Comments"
+#~ msgstr "% Reacties"
 
-#: header.php:14
-msgid "Start"
-msgstr "Start"
+#~ msgid "Start"
+#~ msgstr "Start"
 
-#: inc/content-btt-button.php:1
-msgid "Back to top"
-msgstr "Naar boven"
+#~ msgid "Back to top"
+#~ msgstr "Naar boven"
 
-#: inc/content-footer-social.php:14 inc/content-header-social.php:14
-#: inc/content-header-top-bar.php:56
-msgid "Page"
-msgstr "Pagina"
+#~ msgid "Page"
+#~ msgstr "Pagina"
 
-#: inc/content-header-nav.php:16 inc/layout-header-sidebar-transparent.php:36
-#: inc/layout-header-sidebar.php:36 inc/layout-header-vertical.php:27
-msgid "Set up a navigation menu now"
-msgstr ""
+#~ msgid "Type search query and hit enter"
+#~ msgstr "Typ zoekopdracht en druk op ENTER"
 
-#: inc/content-header-search-full.php:5 inc/content-header-search.php:5
-msgid "Type search query and hit enter"
-msgstr "Typ zoekopdracht en druk op ENTER"
-
-#: inc/content-header-side-menu.php:25
 #, fuzzy
-msgid "Want to view your cart?"
-msgstr "Bekijk je winkelmand"
+#~ msgid "Want to view your cart?"
+#~ msgstr "Bekijk je winkelmand"
 
-#: inc/content-header-side-menu.php:26
-msgid "View Cart"
-msgstr "Bekijk winkelmand"
+#~ msgid "View Cart"
+#~ msgstr "Bekijk winkelmand"
 
-#: inc/content-header-side-menu.php:29
-msgid "Or checkout now?"
-msgstr "Of nu afrekenen?"
+#~ msgid "Or checkout now?"
+#~ msgstr "Of nu afrekenen?"
 
-#: inc/content-header-side-menu.php:30
-msgid "Checkout Now"
-msgstr "Nu afrekenen"
+#~ msgid "Checkout Now"
+#~ msgstr "Nu afrekenen"
 
-#: inc/content-pagination-text.php:11
 #, fuzzy
-msgid "&laquo; Older Posts"
-msgstr "&laquo; Vorige berichten"
+#~ msgid "&laquo; Older Posts"
+#~ msgstr "&laquo; Vorige berichten"
 
-#: inc/content-pagination-text.php:23
 #, fuzzy
-msgid "Newer Posts &raquo;"
-msgstr "Meer berichten &raquo;"
+#~ msgid "Newer Posts &raquo;"
+#~ msgstr "Meer berichten &raquo;"
 
-#: inc/content-portfolio-filters.php:8 inc/content-post-categories.php:3
-#: inc/content-product-filters.php:2
-msgid "Category:"
-msgstr "Categorie:"
+#~ msgid "Category:"
+#~ msgstr "Categorie:"
 
-#: inc/content-portfolio-filters.php:10 inc/content-post-categories.php:13
-#: inc/content-product-filters.php:7
-msgid "All Categories"
-msgstr "Alle categorieën"
+#~ msgid "All Categories"
+#~ msgstr "Alle categorieën"
 
-#: inc/content-portfolio-nav.php:23 inc/content-post-nav.php:23
-msgid "Previous Post"
-msgstr "Vorig bericht"
+#~ msgid "Previous Post"
+#~ msgstr "Vorig bericht"
 
-#: inc/content-portfolio-nav.php:56 inc/content-post-nav.php:57
-msgid "Next Post"
-msgstr "Volgend bericht"
+#~ msgid "Next Post"
+#~ msgstr "Volgend bericht"
 
-#: inc/content-post-author.php:15
 #, fuzzy
-msgid "About The Author: "
-msgstr "Schakel de auteur over het vak hier"
+#~ msgid "About The Author: "
+#~ msgstr "Schakel de auteur over het vak hier"
 
-#: inc/content-post-author.php:17
 #, fuzzy
-msgid "More posts by "
-msgstr "Meer berichten van"
+#~ msgid "More posts by "
+#~ msgstr "Meer berichten van"
 
-#: inc/content-post-meta.php:1
 #, fuzzy
-msgid "in"
-msgstr "in"
-
-#: inc/content-post-sharing.php:6
-msgid "Share on Facebook"
-msgstr "Deel op Facebook"
+#~ msgid "in"
+#~ msgstr "in"
 
-#: inc/content-post-sharing.php:13
-msgid "Share on Twitter"
-msgstr "Deel op Twitter"
+#~ msgid "Share on Facebook"
+#~ msgstr "Deel op Facebook"
 
-#: inc/content-team-nav.php:23
-msgid "Previous Team Member"
-msgstr ""
+#~ msgid "Share on Twitter"
+#~ msgstr "Deel op Twitter"
 
-#: inc/content-team-nav.php:56
-msgid "Next Team Member"
-msgstr "Volgend teamlid"
+#~ msgid "Next Team Member"
+#~ msgstr "Volgend teamlid"
 
-#: inc/layout-header-search.php:44
 #, fuzzy
-msgid "Search site"
-msgstr "Zoeken"
+#~ msgid "Search site"
+#~ msgstr "Zoeken"
 
-#: loop/content-career.php:10
 #, fuzzy
-msgid "View Posting"
-msgstr "Bekijk"
-
-#: loop/content-none.php:11
-msgid "This"
-msgstr "Deze"
-
-#: loop/content-none.php:11
-msgid "feed contains no content."
-msgstr ""
+#~ msgid "View Posting"
+#~ msgstr "Bekijk"
 
-#: loop/content-none.php:12
-msgid "Please add some"
-msgstr ""
+#~ msgid "This"
+#~ msgstr "Deze"
 
-#: loop/content-none.php:12
-msgid "posts to load them here."
-msgstr ""
+#~ msgid "Add"
+#~ msgstr "Toevoegen"
 
-#: loop/content-none.php:13
-msgid "Add"
-msgstr "Toevoegen"
+#~ msgid "View Project"
+#~ msgstr "Bekijk project"
 
-#: loop/content-none.php:13
-msgid "Posts Now"
-msgstr ""
-
-#: loop/content-none.php:17
-msgid "This feed contains no content."
-msgstr ""
-
-#: loop/content-portfolio-creative.php:6
-msgid "View Project"
-msgstr "Bekijk project"
-
-#: loop/content-portfolio-fullscreen.php:9
 #, fuzzy
-msgid "Explore Gallery"
-msgstr "Aan galerij toevoegen"
-
-#: loop/content-post-cards-detailed.php:12
-#: loop/content-post-cards-sidebar-detailed.php:12
-#: loop/content-post-cards-sidebar.php:11 loop/content-post-cards.php:11
-msgid "Sticky"
-msgstr "Sticky"
+#~ msgid "Explore Gallery"
+#~ msgstr "Aan galerij toevoegen"
 
-#: loop/content-post-cards-detailed.php:21
-#: loop/content-post-cards-sidebar-detailed.php:21
-msgid " &bull; 0 Comments"
-msgstr ""
+#~ msgid "Sticky"
+#~ msgstr "Sticky"
 
-#: loop/content-post-cards-detailed.php:22
-#: loop/content-post-cards-sidebar-detailed.php:22
 #, fuzzy
-msgid " &bull; 1 Comment"
-msgstr " &bull; 1 reactie"
+#~ msgid " &bull; 1 Comment"
+#~ msgstr " &bull; 1 reactie"
 
-#: loop/content-post-cards-detailed.php:23
-#: loop/content-post-cards-sidebar-detailed.php:23
 #, fuzzy
-msgid " &bull; % Comments"
-msgstr " &bull; % Reacties"
+#~ msgid " &bull; % Comments"
+#~ msgstr " &bull; % Reacties"
 
-#: loop/content-post-cards-detailed.php:34
-#: loop/content-post-cards-sidebar-detailed.php:34
-#: loop/content-post-cards-sidebar.php:16 loop/content-post-cards.php:16
 #, fuzzy
-msgid "Read More"
-msgstr "Lees meer"
+#~ msgid "Read More"
+#~ msgstr "Lees meer"
 
-#: loop/content-post-list.php:11
 #, fuzzy
-msgid "Continue reading &raquo;"
-msgstr "Lees verder &raquo;"
+#~ msgid "Continue reading &raquo;"
+#~ msgstr "Lees verder &raquo;"
 
-#: loop/content-post-row.php:14
 #, fuzzy
-msgid "Read Article"
-msgstr "Lees artikel"
+#~ msgid "Read Article"
+#~ msgstr "Lees artikel"
 
-#: loop/content-product-column-2.php:17 loop/content-product-column-3.php:17
-#: loop/content-product-column-4.php:17
-#: loop/content-product-column-tiles-2.php:15
-#: loop/content-product-column-tiles-3.php:15
-#: loop/content-product-column-tiles-4.php:15
 #, fuzzy
-msgid "Sale"
-msgstr "Sale"
+#~ msgid "Sale"
+#~ msgstr "Sale"
 
-#: loop/content-search-none.php:3
 #, fuzzy
-msgid "No search results found"
-msgstr "Geen zoekresultaten gevonden"
+#~ msgid "No search results found"
+#~ msgstr "Geen zoekresultaten gevonden"
 
-#: loop/loop-careers-related.php:35
 #, fuzzy
-msgid "Similar Openings"
-msgstr "Vergelijkbaar"
+#~ msgid "Similar Openings"
+#~ msgstr "Vergelijkbaar"
 
-#: loop/loop-post-related.php:35
 #, fuzzy
-msgid "More recent stories"
-msgstr "Lees meer relevante artikelen"
+#~ msgid "More recent stories"
+#~ msgstr "Lees meer relevante artikelen"
 
-#: search.php:10
 #, fuzzy
-msgid "Showing results for"
-msgstr "Alle %d gevonden resultaten"
+#~ msgid "Showing results for"
+#~ msgstr "Alle %d gevonden resultaten"
 
-#: search.php:12
 #, fuzzy
-msgid "results found"
-msgstr "gevonden resultaten"
+#~ msgid "results found"
+#~ msgstr "gevonden resultaten"
 
-#: searchform.php:3
-msgid "Type search keywords here"
-msgstr "Vul hier uw zoekwoorden in"
+#~ msgid "Type search keywords here"
+#~ msgstr "Vul hier uw zoekwoorden in"
 
-#: searchform.php:6
 #, fuzzy
-msgid "Search"
-msgstr "Zoeken"
+#~ msgid "Search"
+#~ msgstr "Zoeken"
 
-#: vc_init.php:55
 #, fuzzy
-msgid "Tab Title"
-msgstr "Tabblad Titel"
+#~ msgid "Tab Title"
+#~ msgstr "Tabblad Titel"
 
-#: vc_init.php:62
 #, fuzzy
-msgid "Row Type"
-msgstr "Rij Type"
+#~ msgid "Row Type"
+#~ msgstr "Rij Type"
 
-#: vc_init.php:85 vc_init.php:93
 #, fuzzy
-msgid "Gradient Colours"
-msgstr "Gradiënt kleuren"
+#~ msgid "Gradient Colours"
+#~ msgstr "Gradiënt kleuren"
 
-#: woocommerce/cart/cart-empty.php:14
 #, fuzzy
-msgid "Your cart is currently empty."
-msgstr "Uw winkelmand is momenteel leeg."
+#~ msgid "Your cart is currently empty."
+#~ msgstr "Uw winkelmand is momenteel leeg."
 
-#: woocommerce/cart/cart-empty.php:21
 #, fuzzy
-msgid "Return To Shop"
-msgstr "Terug naar de winkel"
+#~ msgid "Return To Shop"
+#~ msgstr "Terug naar de winkel"
 
-#: woocommerce/cart/cart-totals.php:20
-msgid "Cart Subtotal:"
-msgstr "Winkelmand subtotaal:"
+#~ msgid "Cart Subtotal:"
+#~ msgstr "Winkelmand subtotaal:"
 
-#: woocommerce/cart/cart-totals.php:51 woocommerce/cart/cart-totals.php:52
-msgid "Shipping"
-msgstr "Verzending"
+#~ msgid "Shipping"
+#~ msgstr "Verzending"
 
-#: woocommerce/cart/cart-totals.php:73
 #, php-format
-msgid "estimated for %s"
-msgstr "geschat voor %s"
+#~ msgid "estimated for %s"
+#~ msgstr "geschat voor %s"
 
-#: woocommerce/cart/cart-totals.php:105
-msgid "Total:"
-msgstr "Totaal:"
+#~ msgid "Total:"
+#~ msgstr "Totaal:"
 
-#: woocommerce/cart/cart.php:33
-msgid "Quantity:"
-msgstr "Aantal:"
+#~ msgid "Quantity:"
+#~ msgstr "Aantal:"
 
-#: woocommerce/cart/cart.php:56
-msgid "Remove this item"
-msgstr "Verwijder dit item"
+#~ msgid "Remove this item"
+#~ msgstr "Verwijder dit item"
 
-#: woocommerce/cart/cart.php:85
-msgid "Available on backorder"
-msgstr "Beschikbaar via nabestelling"
+#~ msgid "Available on backorder"
+#~ msgstr "Beschikbaar via nabestelling"
 
-#: woocommerce/cart/cart.php:91
-msgid "Total: "
-msgstr "Totaal:"
+#~ msgid "Total: "
+#~ msgstr "Totaal:"
 
-#: woocommerce/cart/cart.php:114
-msgid "Update Cart"
-msgstr "Winkelmand bijwerken"
+#~ msgid "Update Cart"
+#~ msgstr "Winkelmand bijwerken"
 
-#: woocommerce/cart/cart.php:126
 #, fuzzy
-msgid "Got a coupon code?"
-msgstr "Begrepen!"
+#~ msgid "Got a coupon code?"
+#~ msgstr "Begrepen!"
 
-#: woocommerce/cart/cart.php:129
 #, fuzzy
-msgid "Coupon code"
-msgstr "Kortingscode"
+#~ msgid "Coupon code"
+#~ msgstr "Kortingscode"
 
-#: woocommerce/cart/cart.php:132
 #, fuzzy
-msgid "Apply Coupon"
-msgstr "Kortingscode toepassen"
+#~ msgid "Apply Coupon"
+#~ msgstr "Kortingscode toepassen"
 
-#: woocommerce/cart/proceed-to-checkout-button.php:13
-msgid "Proceed to Checkout"
-msgstr "Doorgaan naar afrekenen"
+#~ msgid "Proceed to Checkout"
+#~ msgstr "Doorgaan naar afrekenen"
 
-#: woocommerce/checkout/payment.php:23
 #, fuzzy
-msgid ""
-"Sorry, it seems that there are no available payment methods for your state. "
-"Please contact us if you require assistance or wish to make alternate "
-"arrangements."
-msgstr ""
-"Sorry, het lijkt erop dat er geen betaalmethode is voor uw staat/regio. Neem "
-"alstublieft contact met ons op als u hulp nodig heeft of persoonlijke "
-"afspraken met ons wilt maken."
+#~ msgid ""
+#~ "Sorry, it seems that there are no available payment methods for your "
+#~ "state. Please contact us if you require assistance or wish to make "
+#~ "alternate arrangements."
+#~ msgstr ""
+#~ "Sorry, het lijkt erop dat er geen betaalmethode is voor uw staat/regio. "
+#~ "Neem alstublieft contact met ons op als u hulp nodig heeft of "
+#~ "persoonlijke afspraken met ons wilt maken."
 
-#: woocommerce/checkout/payment.php:23
 #, fuzzy
-msgid "Please fill in your details above to see available payment methods."
-msgstr "Vul hierboven uw gegevens in om de beschikbare betaalmethoden te zien."
+#~ msgid "Please fill in your details above to see available payment methods."
+#~ msgstr ""
+#~ "Vul hierboven uw gegevens in om de beschikbare betaalmethoden te zien."
 
-#: woocommerce/checkout/payment.php:30
 #, fuzzy
-msgid ""
-"Since your browser does not support JavaScript, or it is disabled, please "
-"ensure you click the <em>Update Totals</em> button before placing your "
-"order. You may be charged more than the amount stated above if you fail to "
-"do so."
-msgstr ""
-"Aangezien JavaScript niet door je browser ondersteund wordt of is "
-"uitgeschakeld, dien je op <em>Totalen bijwerken</em> te klikken voordat je "
-"een bestelling plaatst. Als je dit niet doet, kan er meer in rekening worden "
-"gebracht dan het bovenstaande bedrag."
+#~ msgid ""
+#~ "Since your browser does not support JavaScript, or it is disabled, please "
+#~ "ensure you click the <em>Update Totals</em> button before placing your "
+#~ "order. You may be charged more than the amount stated above if you fail "
+#~ "to do so."
+#~ msgstr ""
+#~ "Aangezien JavaScript niet door je browser ondersteund wordt of is "
+#~ "uitgeschakeld, dien je op <em>Totalen bijwerken</em> te klikken voordat "
+#~ "je een bestelling plaatst. Als je dit niet doet, kan er meer in rekening "
+#~ "worden gebracht dan het bovenstaande bedrag."
 
-#: woocommerce/checkout/payment.php:31
-msgid "Update totals"
-msgstr "Totalen bijwerken"
+#~ msgid "Update totals"
+#~ msgstr "Totalen bijwerken"
 
-#: woocommerce/loop/add-to-cart.php:16
-msgid "Add To Cart"
-msgstr "Toevoegen aan winkelmand"
+#~ msgid "Add To Cart"
+#~ msgstr "Toevoegen aan winkelmand"
 
-#: woocommerce/single-product/related.php:20
 #, fuzzy
-msgid "Related Products"
-msgstr "Gerelateerde producten"
+#~ msgid "Related Products"
+#~ msgstr "Gerelateerde producten"
 
-#: woocommerce/single-product/tabs/additional-information.php:13
 #, fuzzy
-msgid "Additional Information"
-msgstr "Extra informatie"
+#~ msgid "Additional Information"
+#~ msgstr "Extra informatie"
 
-#: woocommerce/single-product/tabs/description.php:13
 #, fuzzy
-msgid "Product Description"
-msgstr "Productbeschrijving"
+#~ msgid "Product Description"
+#~ msgstr "Productbeschrijving"

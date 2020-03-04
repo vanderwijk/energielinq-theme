@@ -16,26 +16,45 @@
 		if ( have_posts() ) :
 			while ( have_posts() ) : the_post();
 
-					echo '<div class="wide flex"><div class="thumbnail"><a href="' . get_the_permalink() . '">';
-					$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post ->ID ), 'single' );
-					echo '<img src="' . $image[0] . '" alt="">';
-					echo '</a></div><div class="description"><a href="' . get_the_permalink() . '"><h3>' . get_the_title() . '</h3>';
-					the_excerpt();
-					echo '</a>';
-					echo '<p><a href="' . get_the_permalink() . '" class="read-more">';
-					$post_type = get_post_type( get_the_ID() );
-					if ( $post_type == 'post' ) {
-						echo 'lees artikel';
-					} else if ( $post_type == 'project' ) {
-						echo 'bekijk project';
-					} else {
-						echo 'lees meer';
-					}
-					echo '</a></p>';
-					
-					echo '</div></div>';
+				$post_id = get_the_id();
+				$post_meta = get_post_meta($post_id);
+				$post_type = get_post_type($post_id);
 
-			endwhile;
+				if ( $post_type == 'post' ) {
+					$readmore = 'lees artikel';
+				} else if ( $post_type == 'project' ) {
+					$readmore = 'bekijk project';
+				} else if ( $post_type == 'link' ) {
+					$readmore = 'open link';
+				} else {
+					$readmore = 'lees meer';
+				}
+
+				if ( $post_type == 'link' ) {
+					$link = $post_meta['url'][0];
+					$link_rel = 'external';
+				} else {
+					$link = get_the_permalink();
+				}
+
+				$featured_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post ->ID ), 'single' ); ?>
+
+				<div class="wide flex">
+					<div class="thumbnail">
+						<a href="<?php echo $link; ?>" rel="<?php echo $link_rel; ?>">
+							<img src="<?php if ($featured_image[0]) { echo $featured_image[0]; } else { echo '/wp-content/themes/energielinq-theme/img/link-thumbnail.svg'; } ?>" alt="">
+						</a>
+					</div>
+					<div class="description">
+						<a href="<?php echo $link; ?>" rel="<?php echo $link_rel; ?>">
+							<h3><?php echo get_the_title(); ?></h3>
+							<?php the_excerpt(); ?>
+						</a>
+						<a href="<?php echo $link; ?>" rel="<?php echo $link_rel; ?>" class="read-more"><?php echo $readmore; ?></a>
+					</div>
+				</div>
+
+			<?php endwhile;
 		else :
 			get_template_part( 'content', 'none' );
 		endif;
