@@ -108,6 +108,6 @@ function get_attachment_id_from_src($image_src) {
 
 // Modify exerpts
 function energielinq_excerpt_length( $length ) {
-	return 45;
+	return 35;
 }
 add_filter( 'excerpt_length', 'energielinq_excerpt_length', 1000 );
