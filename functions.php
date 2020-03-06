@@ -105,3 +105,9 @@ function get_attachment_id_from_src($image_src) {
 	$id = $wpdb->get_var($query);
 	return $id;
 }
+
+// Modify exerpts
+function energielinq_excerpt_length( $length ) {
+	return 30;
+}
+add_filter( 'excerpt_length', 'energielinq_excerpt_length', 1000 );
