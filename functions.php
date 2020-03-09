@@ -40,6 +40,12 @@ function hubspot() { ?>
 <?php }
 add_action('wp_footer', 'hubspot');
 
+// Modify exerpts
+function energielinq_excerpt_length( $length ) {
+	return 30;
+}
+add_filter( 'excerpt_length', 'energielinq_excerpt_length', 1000 );
+
 /**
  * Save file upload fields under custom post field to the library
  *
@@ -105,9 +111,3 @@ function get_attachment_id_from_src($image_src) {
 	$id = $wpdb->get_var($query);
 	return $id;
 }
-
-// Modify exerpts
-function energielinq_excerpt_length( $length ) {
-	return 30;
-}
-add_filter( 'excerpt_length', 'energielinq_excerpt_length', 1000 );
