@@ -12,14 +12,6 @@
 				</div>
 			<?php }; ?>
 
-			<div class="entry-meta">
-				<span class="date updated"><?php the_modified_date( get_option( 'date_format' ) ); ?></span>
-				<span class="vcard author">
-					<?php _e( 'by', 'fran' ); ?>
-					<span class="fn"><?php the_author(); ?></span>
-				</span>
-			</div>
-
 			<h2 class="entry-title">
 				<a href="<?php the_permalink(); ?>" rel="bookmark">
 					<?php the_title(); ?>
