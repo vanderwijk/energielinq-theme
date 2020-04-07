@@ -14,7 +14,7 @@
 		<?php echo facetwp_display( 'facet', 'search' ); ?>
 		<?php echo facetwp_display( 'facet', 'gemeente' ); ?>
 		<?php echo facetwp_display( 'facet', 'renovatie_of_nieuwbouw' ); ?>
-		<?php echo facetwp_display( 'facet', 'ambitie' ); ?>
+		<?php echo facetwp_display( 'facet', 'ambitieniveau' ); ?>
 	</div>
 
 	<div class="wide-column">
