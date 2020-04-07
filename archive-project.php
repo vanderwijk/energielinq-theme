@@ -14,10 +14,10 @@
 		<?php echo facetwp_display( 'facet', 'search' ); ?>
 		<?php echo facetwp_display( 'facet', 'provincie' ); ?>
 		<?php echo facetwp_display( 'facet', 'plaats' ); ?>
-		<?php echo facetwp_display( 'facet', 'aantal_woningen' ); ?>
+		<?php //echo facetwp_display( 'facet', 'aantal_woningen' ); ?>
 
-		<?php echo facetwp_display( 'facet', 'renovatie_of_nieuwbouw' ); ?>
-		<?php echo facetwp_display( 'facet', 'ambitieniveau' ); ?>
+		<?php //echo facetwp_display( 'facet', 'renovatie_of_nieuwbouw' ); ?>
+		<?php //echo facetwp_display( 'facet', 'ambitieniveau' ); ?>
 	</div>
 
 	<div class="wide-column">
