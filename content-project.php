@@ -10,12 +10,6 @@
 								<img src="<?php echo $image[0]; ?>" alt="<?php echo the_title_attribute(); ?>" />
 							</a>
 						</div>
-					<?php } else { ?>
-						<div class="thumbnail">
-							<a href="<?php the_permalink(); ?>" rel="bookmark">test
-								<img src="'/wp-content/themes/energielinq-theme/img/link-project.svg'" alt="<?php the_title_attribute(); ?>" />
-							</a>
-						</div>
 					<?php } ?>
 
 					<h2 class="entry-title">
