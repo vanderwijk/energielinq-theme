@@ -19,13 +19,18 @@
 	<div class="wide-column">
 	<?php
 		if ( have_posts() ) :
-			while ( have_posts() ) : the_post(); 
-				$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post ->ID ), 'single' ); ?>
-				
+			while ( have_posts() ) : the_post();
+				if ( has_post_thumbnail() ) {
+					$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post ->ID ), 'single' );
+					$image = $image[0];
+				} else {
+					$image = '/wp-content/themes/energielinq-theme/img/link-project.svg';
+				} ?>
+
 				<div class="result flex">
 					<div class="search-thumbnail">
 						<a href="<?php echo get_the_permalink(); ?>">
-							<img src="<?php echo $image[0]; ?>" alt="">
+							<img src="<?php echo $image; ?>" alt="<?php the_title_attribute(); ?>">
 						</a>
 					</div>
 					<div class="search-description">

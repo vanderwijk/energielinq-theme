@@ -12,8 +12,7 @@
 						</div>
 					<?php } else { ?>
 						<div class="thumbnail">
-							<a href="<?php the_permalink(); ?>" rel="bookmark">
-								<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post ->ID ), 'single' ); ?>
+							<a href="<?php the_permalink(); ?>" rel="bookmark">test
 								<img src="'/wp-content/themes/energielinq-theme/img/link-project.svg'" alt="<?php the_title_attribute(); ?>" />
 							</a>
 						</div>
