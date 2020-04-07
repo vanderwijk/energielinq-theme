@@ -71,9 +71,6 @@
 
 							<div class="projectdata">
 								<table>
-									<tr>
-										<td>Gemeente</td><td><?php echo $project_meta['gemeente'][0]; ?></td>
-									</tr>
 
 									<?php if ($project_meta['provincie'][0]) { ?>
 									<tr>
