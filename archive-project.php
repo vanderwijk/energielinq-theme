@@ -12,7 +12,7 @@
 
 	<div class="narrow-column">
 		<?php echo facetwp_display( 'facet', 'search' ); ?>
-		<?php echo facetwp_display( 'facet', 'gemeente' ); ?>
+		<?php echo facetwp_display( 'facet', 'provincie' ); ?>
 		<?php echo facetwp_display( 'facet', 'renovatie_of_nieuwbouw' ); ?>
 		<?php echo facetwp_display( 'facet', 'ambitieniveau' ); ?>
 	</div>
