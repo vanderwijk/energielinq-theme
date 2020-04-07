@@ -10,7 +10,14 @@
 								<img src="<?php echo $image[0]; ?>" alt="<?php the_title_attribute(); ?>" />
 							</a>
 						</div>
-					<?php }; ?>
+					<?php } else { ?>
+						<div class="thumbnail">
+							<a href="<?php the_permalink(); ?>" rel="bookmark">
+								<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post ->ID ), 'single' ); ?>
+								<img src="'/wp-content/themes/energielinq-theme/img/link-project.svg'" alt="<?php the_title_attribute(); ?>" />
+							</a>
+						</div>
+					<?php } ?>
 
 					<h2 class="entry-title">
 						<a href="<?php the_permalink(); ?>" rel="bookmark">
@@ -68,35 +75,118 @@
 										<td>Gemeente</td><td><?php echo $project_meta['gemeente'][0]; ?></td>
 									</tr>
 
+									<?php if ($project_meta['provincie'][0]) { ?>
+									<tr>
+										<td>Provincie</td>
+										<td><?php echo $project_meta['provincie'][0]; ?></td>
+									</tr>
+									<?php } ?>
+
+									<?php if ($project_meta['plaats'][0]) { ?>
+									<tr>
+										<td>Plaats</td>
+										<td><?php echo $project_meta['plaats'][0]; ?></td>
+									</tr>
+									<?php } ?>
+
+									<?php if ($project_meta['wijk_straat'][0]) { ?>
+									<tr>
+										<td>Wijk, Straat</td>
+										<td><?php echo $project_meta['wijk_straat'][0]; ?></td>
+									</tr>
+									<?php } ?>
+
+									<?php if ($project_meta['eigendom'][0]) { ?>
+									<tr>
+										<td>Eigendom</td>
+										<td><?php echo $project_meta['eigendom'][0]; ?></td>
+									</tr>
+									<?php } ?>
+
+									<?php if ($project_meta['bouw'][0]) { ?>
+									<tr>
+										<td>Bouw</td>
+										<td><?php echo $project_meta['bouw'][0]; ?></td>
+									</tr>
+									<?php } ?>
+
+									<?php if ($project_meta['bouwlagen'][0]) { ?>
+									<tr>
+										<td>Bouwlagen</td>
+										<td><?php echo $project_meta['bouwlagen'][0]; ?></td>
+									</tr>
+									<?php } ?>
+
+									<?php if ($project_meta['ambitieniveau'][0]) { ?>
+									<tr>
+										<td>Ambitieniveau</td>
+										<td><?php echo $project_meta['ambitieniveau'][0]; ?></td>
+									</tr>
+									<?php } ?>
+
+									<?php if ($project_meta['energiebron_verwarming'][0]) { ?>
+									<tr>
+										<td>Energiebron voor verwarming</td>
+										<td><?php echo $project_meta['energiebron_verwarming'][0]; ?></td>
+									</tr>
+									<?php } ?>
+
+									<?php if ($project_meta['prestatiegarantie'][0]) { ?>
+									<tr>
+										<td>Prestatiegarantie</td>
+										<td><?php echo $project_meta['prestatiegarantie'][0]; ?></td>
+									</tr>
+									<?php } ?>
+
+									<?php if ($project_meta['epv'][0]) { ?>
+									<tr>
+										<td>EPV</td>
+										<td><?php echo $project_meta['epv'][0]; ?></td>
+									</tr>
+									<?php } ?>
+
 									<?php if ($project_meta['aantal_woningen'][0]) { ?>
 									<tr>
-										<td>Aantal woningen</td><td><?php echo $project_meta['aantal_woningen'][0]; ?></td>
+										<td>Aantal woningen</td>
+										<td><?php echo $project_meta['aantal_woningen'][0]; ?></td>
 									</tr>
 									<?php } ?>
 
-									<?php if ($project_meta['renovatie_of_nieuwbouw'][0]) { ?>
+									<?php if ($project_meta['projectstatus'][0]) { ?>
 									<tr>
-										<td>Projecttype</td><td><?php echo $project_meta['renovatie_of_nieuwbouw'][0]; ?></td>
+										<td>Projectstatus</td>
+										<td><?php echo $project_meta['projectstatus'][0]; ?></td>
 									</tr>
 									<?php } ?>
 
-									<?php if ($project_meta['bouwer'][0]) { ?>
+									<?php if ($project_meta['opleverjaar'][0]) { ?>
 									<tr>
-										<td>Bouwer</td><td><?php echo $project_meta['bouwer'][0]; ?></td>
+										<td>Opleverjaar</td>
+										<td><?php echo $project_meta['opleverjaar'][0]; ?></td>
 									</tr>
 									<?php } ?>
 
-									<?php if ($project_meta['corporatie'][0]) { ?>
+									<?php if ($project_meta['bouwjaar'][0]) { ?>
 									<tr>
-										<td>Corporatie</td><td><?php echo $project_meta['corporatie'][0]; ?></td>
+										<td>Bouwjaar</td>
+										<td><?php echo $project_meta['bouwjaar'][0]; ?></td>
 									</tr>
 									<?php } ?>
 
-									<?php if ($project_meta['toeleverancier'][0]) { ?>
+									<?php if ($project_meta['bouwbedrijf'][0]) { ?>
 									<tr>
-										<td>Toeleverancier</td><td><?php echo $project_meta['toeleverancier'][0]; ?></td>
+										<td>Bouwbedrijf</td>
+										<td><?php echo $project_meta['bouwbedrijf'][0]; ?></td>
 									</tr>
 									<?php } ?>
+
+									<?php if ($project_meta['opdrachtgever'][0]) { ?>
+									<tr>
+										<td>naam corporatie, VVE of particulier</td>
+										<td><?php echo $project_meta['opdrachtgever'][0]; ?></td>
+									</tr>
+									<?php } ?>
+
 								</table>
 							</div>
 
