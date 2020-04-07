@@ -331,10 +331,10 @@ ul.expert-info {
 	justify-content: space-between;
 }
 .projectbeschrijving {
-	width: 67%;
+	width: 49%;
 }
 .projectdata {
-	width: 30%;
+	width: 49%;
 }
 
 .projectdata td:first-child {

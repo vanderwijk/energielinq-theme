@@ -3,11 +3,11 @@
 			<div class="col one-third">
 				<div <?php post_class( 'block' ); ?>>
 
-					<?php if ( has_post_thumbnail ( $post ->ID ) ) { ?>
+					<?php if ( has_post_thumbnail () ) { ?>
 						<div class="thumbnail">
 							<a href="<?php the_permalink(); ?>" rel="bookmark">
 								<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post ->ID ), 'single' ); ?>
-								<img src="<?php echo $image[0]; ?>" alt="<?php the_title_attribute(); ?>" />
+								<img src="<?php echo $image[0]; ?>" alt="<?php echo the_title_attribute(); ?>" />
 							</a>
 						</div>
 					<?php } else { ?>
