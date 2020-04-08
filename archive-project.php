@@ -18,6 +18,7 @@
 
 		<?php //echo facetwp_display( 'facet', 'renovatie_of_nieuwbouw' ); ?>
 		<?php //echo facetwp_display( 'facet', 'ambitieniveau' ); ?>
+		<p class="reset"><a href="#" onclick="FWP.reset()">Reset</a></p>
 	</div>
 
 	<div class="wide-column">

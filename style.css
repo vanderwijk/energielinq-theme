@@ -436,6 +436,18 @@ ul.expert-info {
 	width: 80%;
 }
 
+.reset a {
+	color: #3e3e3e;
+}
+.reset a:hover {
+	color: #4BAA82;
+	text-decoration: underline;
+}
+.reset a:active {
+	position: relative;
+	top: 1px;
+}
+
 @media (max-width: 767px) {
 	.narrow-column,
 	.wide-column {
