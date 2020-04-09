@@ -172,8 +172,22 @@
 
 									<?php if ($project_meta['opdrachtgever'][0]) { ?>
 									<tr>
-										<td>naam corporatie, VVE of particulier</td>
+										<td>Opdrachtgever</td>
 										<td><?php echo $project_meta['opdrachtgever'][0]; ?></td>
+									</tr>
+									<?php } ?>
+
+									<?php if ($project_meta['link1'][0]) { ?>
+									<tr>
+										<td>Link 1</td>
+										<td><a href="<?php echo $project_meta['link1'][0]; ?>" rel="external">Link 1</a></td>
+									</tr>
+									<?php } ?>
+
+									<?php if ($project_meta['link2'][0]) { ?>
+									<tr>
+										<td>Link 2</td>
+										<td><a href="<?php echo $project_meta['link2'][0]; ?>" rel="external">Link 2</a></td>
 									</tr>
 									<?php } ?>
 
