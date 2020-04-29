@@ -54,12 +54,20 @@
 
 						<?php if ( has_post_thumbnail() ) {
 							the_post_thumbnail();
-						} ?>
+						} else { ?>
+							<a href="mailto:redactie@stroomversnelling.nl">
+								<img class="attachment-post-thumbnail" src="/wp-content/themes/energielinq-theme/img/placeholder-project.png">
+							</a>
+						<?php } ?>
 
 						<div class="flex">
 
 							<div class="projectbeschrijving">
-								<?php the_content(); ?>
+								<?php if ( !empty( get_the_content() ) ) {
+									the_content();
+								} else {
+									echo '<p>Uw projectbeschrijving hier? E-mail deze naar <a href="mailto:redactie@stroomversnelling.nl">redactie@stroomversnelling.nl</a></p>';
+								} ?>
 							</div>
 
 							<div class="projectdata">
@@ -211,6 +219,8 @@
 						<?php } ?>
 			
 						<?php echo do_shortcode('[gallery size="medium"]'); ?>
+
+						<p><a class="action" href="/project/">Projectoverzicht</a></p>
 
 						<?php get_template_part( 'module-page-links', get_post_format() ); ?>
 
