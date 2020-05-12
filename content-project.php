@@ -66,7 +66,7 @@
 								<?php if ( !empty( get_the_content() ) ) {
 									the_content();
 								} else {
-									echo '<p>Uw projectbeschrijving hier? E-mail deze naar <a href="mailto:redactie@stroomversnelling.nl">redactie@stroomversnelling.nl</a></p>';
+									echo '<p>Ontbreekt uw projectbeschrijving hier of ziet u incorrecte informatie? E-mail dan naar <a href="mailto:redactie@stroomversnelling.nl">redactie@stroomversnelling.nl</a></p>';
 								} ?>
 							</div>
 
