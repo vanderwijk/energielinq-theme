@@ -116,7 +116,7 @@
 									<?php } ?>
 
 									<?php if ($project_meta['ambitieniveau'][0]) { ?>
-									<tr>
+									<tr style="display: none;">
 										<td>Ambitieniveau</td>
 										<td><?php echo $project_meta['ambitieniveau'][0]; ?></td>
 									</tr>
@@ -130,14 +130,14 @@
 									<?php } ?>
 
 									<?php if ($project_meta['prestatiegarantie'][0]) { ?>
-									<tr>
+									<tr style="display: none;">
 										<td>Prestatiegarantie</td>
 										<td><?php echo $project_meta['prestatiegarantie'][0]; ?></td>
 									</tr>
 									<?php } ?>
 
 									<?php if ($project_meta['epv'][0]) { ?>
-									<tr>
+									<tr style="display: none;">
 										<td>EPV</td>
 										<td><?php echo $project_meta['epv'][0]; ?></td>
 									</tr>
@@ -165,7 +165,7 @@
 									<?php } ?>
 
 									<?php if ($project_meta['bouwjaar'][0]) { ?>
-									<tr>
+									<tr style="display: none;">
 										<td>Bouwjaar</td>
 										<td><?php echo $project_meta['bouwjaar'][0]; ?></td>
 									</tr>
