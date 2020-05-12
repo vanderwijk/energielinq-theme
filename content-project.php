@@ -187,15 +187,31 @@
 
 									<?php if ($project_meta['link1'][0]) { ?>
 									<tr>
-										<td>Link 1</td>
-										<td><a href="<?php echo $project_meta['link1'][0]; ?>" rel="external">Link 1</a></td>
+										<td></td>
+										<td>
+											<a href="<?php echo $project_meta['link1'][0]; ?>" rel="external">
+												<?php if ($project_meta['link_1_beschrijving'][0]) {
+													echo $project_meta['link_1_beschrijving'][0];
+												} else {
+													echo 'Externe link';
+												}; ?>
+											</a>
+										</td>
 									</tr>
 									<?php } ?>
 
 									<?php if ($project_meta['link2'][0]) { ?>
 									<tr>
-										<td>Link 2</td>
-										<td><a href="<?php echo $project_meta['link2'][0]; ?>" rel="external">Link 2</a></td>
+										<td></td>
+										<td>
+											<a href="<?php echo $project_meta['link2'][0]; ?>" rel="external">
+												<?php if ($project_meta['link_2_beschrijving'][0]) {
+													echo $project_meta['link_2_beschrijving'][0];
+												} else {
+													echo 'Externe link';
+												}; ?>
+											</a>
+										</td>
 									</tr>
 									<?php } ?>
 

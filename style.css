@@ -144,10 +144,18 @@ html .intro h2 {
 	color: #3e3e3e;
 }
 
-html .searchform input[type=text] {
-	width: calc(100% - 47px);
+html .searchform input[type=search] {
 	font-family: museo_sans_500;
 	font-weight: 500;
+}
+
+html .searchform:focus-within {
+	border-color: #4BAA82;
+}
+
+html .searchform:focus-within input[type=submit],
+html .main .searchform:focus-within input[type=submit] {
+	background: #fff url( 'img/search-focus.svg' ) no-repeat 50% 50%;
 }
 
 html .main {
@@ -181,8 +189,8 @@ html .breadcrumbs {
 
 html .main .gform_wrapper .gform_footer input.button,
 html .main .gform_wrapper .gform_footer input[type="submit"],
-html .form-submit .submit,
-form input[type="submit"] {
+html main .form-submit .submit,
+html main form input[type="submit"] {
 	background-color: #4BAA82;
 	box-shadow: none;
 	font-family: museo_sans_700;
@@ -556,33 +564,6 @@ ul.expert-info {
 .ugb-button:not(.ugb-link-button):not(.ugb-button--design-link) {
 	border: none;
 }
-.searchwrap {
-	display: flex;
-	border: 2px solid #b6b6b6;
-	border-radius: 3px;
-	width: 100%;
-}
-
-html .header .navigation .nav .sub-menu {
-	position: relative;
-}
-.header .menu li.menu-item-has-children:hover > a,
-.header .menu .sub-menu li:hover > a {
-	border-color: transparent;
-}
-html .header .navigation .toggled-on.nav li > ul a {
-	color: #3e3e3e;
-}
-html .header .navigation .toggled-on.nav li > ul a:hover {
-	background-color: #fff;
-}
-
-html .header .navigation .nav li a {
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	transition: none;
-}
 
 @media screen and (min-width: 480px) {
 	.header .wrap {
@@ -601,37 +582,7 @@ html .header .navigation .nav li a {
 	.header .branding {
 		width: auto;
 	}
-	.header .navigation {
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-	}
-	.header .menu li.search-toggle {
+	.header .navigation li.search-toggle {
 		display: none;
-	}
-	.header #searchform {
-		display: flex;
-		max-width: 75%;
-		margin: 0;
-		margin-top: auto;
-	}
-	html .header .navigation .nav ul {
-		justify-content: flex-start;
-	}
-	html .header .navigation .nav li {
-		margin-right: 20px;
-		position: relative;
-	}
-	html .header .navigation .nav li li {
-		margin-right: 0;
-	}
-	.header .menu .sub-menu li:hover > a {
-		background-color: #e9eaec;
-	}
-	html .header .navigation .menu .sub-menu {
-		border-radius: 3px;
-		background-color: #fff;
-		border: 2px solid #4BAA82;
-		position: absolute;
 	}
 }
