@@ -3,7 +3,7 @@
 * Description: This is a child theme of Fran.
 * Author: <a href="https://thewebworks.nl/">Johan van der Wijk</a>
 * Template: fran
-* Version: 10.5.21
+* Version: 11.1
 */
 
 html,
@@ -110,6 +110,15 @@ html .header {
 	background-color: #fff;
 }
 
+html .header .hamburger-inner,
+html .header .hamburger-inner:after,
+html .header .hamburger-inner:before,
+html .header .hamburger.is-active .hamburger-inner,
+html .header .hamburger.is-active .hamburger-inner:after,
+html .header .hamburger.is-active .hamburger-inner:before {
+	background-color: #404040;
+}
+
 .headroom--not-top {
 	box-shadow: 0 1px 3px 0 rgba(62, 62, 62, .1);
 }
@@ -155,7 +164,7 @@ html .searchform:focus-within {
 
 html .searchform:focus-within input[type=submit],
 html .main .searchform:focus-within input[type=submit] {
-	background: #fff url( 'img/search-focus.svg' ) no-repeat 50% 50%;
+	background: #fff url('img/search-focus.svg') no-repeat 50% 50%;
 }
 
 html .main {
@@ -234,11 +243,6 @@ html strong {
 	vertical-align: top;
 	float: right;
 }
-/*
-.one-third .block img.footer-logo:first-child {
-	float: left;
-}
-*/
 
 .attachment-post-thumbnail {
 	border-radius: 8px;
@@ -310,26 +314,32 @@ ul.expert-info {
 	flex-direction: row;
 	flex-wrap: wrap;
 }
+
 .bottom .col.one-third {
 	width: calc(100%/3);
 }
+
 .bottom .col.one-third:first-child {
 	width: 100%;
 	border-bottom: 1px solid #f5f5f5;
 }
+
 .bottom .col.one-third:first-child .block {
 	margin: .9803921568627451%; /* 10px */
 	padding: .9803921568627451%; /* 10px */
 	width: 98.03921568627451%; /* 1000px */
 }
+
 #menu-themas {
 	column-count: 3;
 	column-gap: 40px;
 	column-gap: 6.25%;
 }
+
 .bottom .col.one-third:last-child {
 	display: flex;
 }
+
 .bottom .col.one-third:last-child .block {
 	align-self: flex-end;
 }
@@ -338,9 +348,11 @@ ul.expert-info {
 	display: flex;
 	justify-content: space-between;
 }
+
 .projectbeschrijving {
 	width: 49%;
 }
+
 .projectdata {
 	width: 49%;
 }
@@ -361,18 +373,22 @@ ul.expert-info {
 		display: flex;
 		flex-wrap: wrap;
 	}
+
 	.projectbeschrijving {
 		width: 100%;
 	}
+
 	.projectdata {
 		width: 100%;
 	}
 }
 
-@media screen and (max-width: 480px), screen and (-webkit-device-pixel-ratio: 3) and (device-height: 640px) and (device-width: 360px) {
+@media screen and (max-width: 480px),
+screen and (-webkit-device-pixel-ratio: 3) and (device-height: 640px) and (device-width: 360px) {
 	#menu-themas {
 		column-count: 2;
 	}
+
 	.bottom .col.one-third {
 		margin: 2.083333333333333%;
 		padding: 2.083333333333333%;
@@ -381,42 +397,42 @@ ul.expert-info {
 }
 
 .main .search-form {
-    background: #fff;
-    border: 1px solid #d8d8d8;
-    border-radius: 2px;
-    padding: .5em;
-    max-width: 260px;
+	background: #fff;
+	border: 1px solid #d8d8d8;
+	border-radius: 2px;
+	padding: .5em;
+	max-width: 260px;
 	margin: 0 auto 3em;
 	display: flex;
 }
 
 @media (max-width: 767px) {
-    .main .search-form {
-        margin-bottom:1em
-    }
+	.main .search-form {
+		margin-bottom: 1em
+	}
 }
 
 .main .search-form label {
-    -ms-flex: 1;
-    flex: 1
+	-ms-flex: 1;
+	flex: 1
 }
 
 .main .search-form label .screen-reader-text {
-    display: none
+	display: none
 }
 
 .main .search-form label input {
-    display: block;
-    width: 100%;
-    line-height: 1;
-    margin-top: .2em
+	display: block;
+	width: 100%;
+	line-height: 1;
+	margin-top: .2em
 }
 
 .main .search-form button,
 .main .search-form input {
-    -webkit-appearance: none;
-    border: 0;
-    background: #fff
+	-webkit-appearance: none;
+	border: 0;
+	background: #fff
 }
 
 .main .search-form button,
@@ -426,20 +442,21 @@ ul.expert-info {
 }
 
 .main .search-form button svg {
-    display: block;
-    width: 21px;
-    height: 21px
+	display: block;
+	width: 21px;
+	height: 21px
 }
 
 .main .search-form+.metadata {
-    font-size: .9em;
-    font-style: italic;
-    margin: -2.5em 0 3em
+	font-size: .9em;
+	font-style: italic;
+	margin: -2.5em 0 3em
 }
 
 .narrow-column {
 	width: 25%;
 }
+
 .wide-column {
 	width: 75%;
 }
@@ -454,29 +471,35 @@ ul.expert-info {
 .reset a {
 	color: #3e3e3e;
 }
+
 .reset a:hover {
 	color: #4BAA82;
 	text-decoration: underline;
 }
+
 .reset a:active {
 	position: relative;
 	top: 1px;
 }
 
 @media (max-width: 767px) {
+
 	.narrow-column,
 	.wide-column {
 		margin: 2.083333333333333%;
 		padding: 2.083333333333333%;
 		width: 95.83333333333333%;
 	}
+
 	.post-type-archive-project .facetwp-facet {
 		margin-bottom: 15px;
 	}
+
 	.facetwp-search,
 	.facetwp-dropdown {
 		width: 100%;
 	}
+
 }
 
 .wide,
@@ -486,7 +509,7 @@ ul.expert-info {
 
 .wide {
 	margin: .9803921568627451%;
-    padding: .9803921568627451%;
+	padding: .9803921568627451%;
 	width: 98.03921568627451%;
 	background-color: #fff;
 	border: 1px solid #e9eaec;
@@ -538,10 +561,12 @@ ul.expert-info {
 		padding: 2.083333333333333%;
 		width: 95.83333333333333%;
 	}
+
 	.wide .thumbnail {
 		width: 100%;
 		margin-bottom: 10px;
 	}
+
 	.wide .description {
 		width: 100%;
 	}
@@ -558,31 +583,9 @@ ul.expert-info {
 }
 
 .uagb-post__link.uagb-text-link {
-	border: none!important;
+	border: none !important;
 }
 
 .ugb-button:not(.ugb-link-button):not(.ugb-button--design-link) {
 	border: none;
-}
-
-@media screen and (min-width: 480px) {
-	.header .wrap {
-		display: flex;
-		margin: 0 auto;
-		max-width: 1000px;
-		padding: 10px;
-		width: 100%;
-	}
-	.header .wrap {
-		display: flex;
-		flex-direction: row-reverse;
-		flex-wrap: nowrap;
-		justify-content: space-between;
-	}
-	.header .branding {
-		width: auto;
-	}
-	.header .navigation li.search-toggle {
-		display: none;
-	}
 }
