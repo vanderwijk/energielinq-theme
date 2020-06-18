@@ -258,7 +258,7 @@
 
 			$args = array(
 			's'              => $keywords,  // The stored keywords to use
-			'engine'         => 'default',  // the SearchWP engine to use
+			'engine'         => 'projecten',  // the SearchWP engine to use
 			'posts_per_page' => 3,          // how many entries to find
 			);
 
