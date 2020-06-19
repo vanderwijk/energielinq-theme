@@ -12,6 +12,7 @@
 
 	<div class="narrow-column">
 		<?php echo facetwp_display( 'facet', 'search' ); ?>
+		<p class="facet-label">Filter projecten</p>
 		<?php echo facetwp_display( 'facet', 'provincie' ); ?>
 		<?php echo facetwp_display( 'facet', 'plaats' ); ?>
 		<?php echo facetwp_display( 'facet', 'eigendom' ); ?>
