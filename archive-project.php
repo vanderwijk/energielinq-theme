@@ -26,7 +26,7 @@
 		<?php echo facetwp_display( 'facet', 'corporatie' ); ?>
 		<?php echo facetwp_display( 'facet', 'projectstatus' ); ?>
 
-		<p class="reset"><a href="#" onclick="FWP.reset()">Reset</a></p>
+		<p class="reset"><a href="#" onclick="FWP.reset()">Reset alle filters</a></p>
 	</div>
 
 	<div class="wide-column">

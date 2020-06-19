@@ -472,6 +472,10 @@ screen and (-webkit-device-pixel-ratio: 3) and (device-height: 640px) and (devic
 	width: 80%;
 }
 
+input[type=button].facetwp-slider-reset {
+	padding: 2px 4px;
+}
+
 .reset a {
 	color: #3e3e3e;
 }
