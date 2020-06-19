@@ -468,6 +468,10 @@ screen and (-webkit-device-pixel-ratio: 3) and (device-height: 640px) and (devic
 	width: 80%;
 }
 
+.facetwp-type-slider {
+	width: 80%;
+}
+
 .reset a {
 	color: #3e3e3e;
 }
