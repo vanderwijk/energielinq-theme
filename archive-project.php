@@ -17,7 +17,7 @@
 		<?php //echo facetwp_display( 'facet', 'aantal_woningen' ); ?>
 		<?php //echo facetwp_display( 'facet', 'renovatie_of_nieuwbouw' ); ?>
 		<?php //echo facetwp_display( 'facet', 'ambitieniveau' ); ?>
-		<?php echo facetwp_display( 'facet', 'eigendom' ); ?>
+		<?php //echo facetwp_display( 'facet', 'eigendom' ); ?>
 		<p class="reset"><a href="#" onclick="FWP.reset()">Reset</a></p>
 	</div>
 
