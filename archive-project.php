@@ -20,7 +20,7 @@
 		<?php echo facetwp_display( 'facet', 'ambitieniveau' ); ?>
 		<?php echo facetwp_display( 'facet', 'energiebron' ); ?>
 		<?php echo facetwp_display( 'facet', 'epv' ); ?>
-		<p>Aantal Woningen</p>
+		<p class="facet-label">Aantal Woningen</p>
 		<?php echo facetwp_display( 'facet', 'aantal_woningen' ); ?>
 		<?php echo facetwp_display( 'facet', 'bouwjaar' ); ?>
 		<?php echo facetwp_display( 'facet', 'corporatie' ); ?>
