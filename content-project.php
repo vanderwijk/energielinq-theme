@@ -187,7 +187,7 @@
 
 									<?php if ($project_meta['link1'][0]) { ?>
 									<tr>
-										<td></td>
+										<td>Gerelateerde link</td>
 										<td>
 											<a href="<?php echo $project_meta['link1'][0]; ?>" rel="external">
 												<?php if ($project_meta['link_1_beschrijving'][0]) {
@@ -202,7 +202,7 @@
 
 									<?php if ($project_meta['link2'][0]) { ?>
 									<tr>
-										<td></td>
+										<td>Gerelateerde link</td>
 										<td>
 											<a href="<?php echo $project_meta['link2'][0]; ?>" rel="external">
 												<?php if ($project_meta['link_2_beschrijving'][0]) {
