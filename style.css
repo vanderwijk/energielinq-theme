@@ -3,7 +3,7 @@
 * Description: This is a child theme of Fran.
 * Author: <a href="https://thewebworks.nl/">Johan van der Wijk</a>
 * Template: fran
-* Version: 11.2
+* Version: 11.3
 */
 
 html,
@@ -366,6 +366,10 @@ ul.expert-info {
 	font-family: museo_sans_700;
 	text-transform: uppercase;
 	font-size: 14px;
+}
+
+.single-project .date.updated {
+	display: none;
 }
 
 @media screen and (max-width: 780px) {
