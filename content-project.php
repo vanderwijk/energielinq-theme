@@ -150,13 +150,6 @@
 									</tr>
 									<?php } ?>
 
-									<?php if ($project_meta['projectstatus'][0]) { ?>
-									<tr>
-										<td>Projectstatus</td>
-										<td><?php echo $project_meta['projectstatus'][0]; ?></td>
-									</tr>
-									<?php } ?>
-
 									<?php if ($project_meta['opleverjaar'][0]) { ?>
 									<tr>
 										<td>Opleverjaar</td>
@@ -269,7 +262,7 @@
 
 			<div class="col">
 				<div class="block related">
-					<h3>Gerelateerde artikelen</h3>
+					<h3><?php _e( 'Related projects', 'energielinq' ); ?></h3>
 					<ul>
 						<?php
 							foreach ( $related_content as $related ) { ?>

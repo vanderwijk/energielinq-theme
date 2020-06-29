@@ -3,7 +3,7 @@
 <div class="row intro">
 	<div class="col">
 		<div class="block">
-			<h2><?php _e('Projects','energielinq'); ?></h2>
+			<h2><?php _e( 'Realized NOM Projects', 'energielinq' ); ?></h2>
 		</div>
 	</div>
 </div>
@@ -12,7 +12,7 @@
 
 	<div class="narrow-column">
 		<?php echo facetwp_display( 'facet', 'search' ); ?>
-		<p class="facet-label">Filter projecten</p>
+		<p class="facet-label"><?php _e( 'Filter Projects', 'energielinq' ); ?></p>
 		<?php echo facetwp_display( 'facet', 'provincie' ); ?>
 		<?php echo facetwp_display( 'facet', 'plaats' ); ?>
 		<?php echo facetwp_display( 'facet', 'eigendom' ); ?>
@@ -21,13 +21,13 @@
 		<?php echo facetwp_display( 'facet', 'ambitieniveau' ); ?>
 		<?php echo facetwp_display( 'facet', 'energiebron' ); ?>
 		<?php echo facetwp_display( 'facet', 'epv' ); ?>
-		<p class="facet-label">Aantal Woningen</p>
+		<p class="facet-label"><?php _e( 'Number of residences', 'energielinq' ); ?></p>
 		<?php echo facetwp_display( 'facet', 'aantal_woningen' ); ?>
 		<?php echo facetwp_display( 'facet', 'bouwjaar' ); ?>
 		<?php echo facetwp_display( 'facet', 'corporatie' ); ?>
 		<?php echo facetwp_display( 'facet', 'projectstatus' ); ?>
 
-		<p class="reset"><a href="#" onclick="FWP.reset()">Reset alle filters</a></p>
+		<p class="reset"><a href="#" onclick="FWP.reset()"><?php _e( 'Reset all filters', 'energielinq' ); ?></a></p>
 	</div>
 
 	<div class="wide-column">
@@ -62,7 +62,7 @@
 			<div class="block">
 				<h1 class="page-title"><?php _e( 'Not Found', 'fran' ); ?></h1>
 				<div class="page-content">
-					<p>Er kunnen geen projecten worden gevonden met deze zoekcriteria.</p>
+					<p><?php _e( 'No projects can be found with these search criteria.', 'energielinq' ); ?></p>
 				</div>
 			</div>
 		</div>

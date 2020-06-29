@@ -7,7 +7,6 @@ add_action( 'after_setup_theme', 'energielinq_theme_locale' );
 function energielinq_enqueues() {
 
 	wp_enqueue_style('fran-style' , get_template_directory_uri() . '/style.css');
-
 	wp_enqueue_style('museo-sans', get_stylesheet_directory_uri() . '/fonts/museo-sans.css', '', wp_get_theme()->get('Version'));
 
 	wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css', '', wp_get_theme()->get('Version'));
@@ -40,7 +39,7 @@ function hubspot() { ?>
 <?php }
 add_action('wp_footer', 'hubspot');
 
-// Modify exerpts
+// modify exerpts
 function energielinq_excerpt_length( $length ) {
 	return 30;
 }
@@ -111,3 +110,19 @@ function get_attachment_id_from_src($image_src) {
 	$id = $wpdb->get_var($query);
 	return $id;
 }
+
+// set meta query on archive
+function md_pre_query( $query ) {
+	if ( is_admin() || ! $query->is_main_query() )
+		return;
+
+	if ( is_post_type_archive( 'project' ) ) {
+
+		$query->set('meta_key', 'projectstatus');
+		$query->set('meta_value', 'Gerealiseerd');
+
+		return;
+	}
+
+}
+add_action( 'pre_get_posts', 'md_pre_query', 1 );

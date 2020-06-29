@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Energielinq\n"
-"POT-Creation-Date: 2020-03-04 16:04+0100\n"
-"PO-Revision-Date: 2020-03-04 16:08+0100\n"
+"POT-Creation-Date: 2020-06-29 16:07+0200\n"
+"PO-Revision-Date: 2020-06-29 16:12+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.3.1\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
@@ -21,12 +21,32 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: archive-project.php:44
+#: archive-project.php:6
+msgid "Realized NOM Projects"
+msgstr "Gerealiseerde NOM projecten"
+
+#: archive-project.php:15
+msgid "Filter Projects"
+msgstr "Filter projecten"
+
+#: archive-project.php:24
+msgid "Number of residences"
+msgstr "Aantal woningen"
+
+#: archive-project.php:30
+msgid "Reset all filters"
+msgstr "Reset alle filters"
+
+#: archive-project.php:63
 msgid "Not Found"
 msgstr "Niet gevonden"
 
-#: content-expert.php:18 content-expert.php:53 content-post.php:18
-#: content-post.php:53 content-project.php:48
+#: archive-project.php:65
+msgid "No projects can be found with these search criteria."
+msgstr "Er kunnen geen projecten worden gevonden met deze zoekcriteria."
+
+#: content-expert.php:45 content-post.php:18 content-post.php:53
+#: content-project.php:48
 msgid "by"
 msgstr "door"
 
@@ -38,9 +58,17 @@ msgstr "Onderwerp"
 msgid "Audience"
 msgstr "Doelgroep"
 
-#: content-project.php:111
+#: content-project.php:229
 msgid "Links"
 msgstr "Links"
+
+#: content-project.php:272
+msgid "Related projects"
+msgstr "Gerelateerde projecten"
+
+#: taxonomy-dossier.php:6
+msgid "Dossier"
+msgstr "Dossier"
 
 #: taxonomy-dossier.php:9
 msgid "Articles about"
@@ -56,7 +84,7 @@ msgstr "Dit is een child theme van Fran."
 
 #. Author of the plugin/theme
 msgid "<a href=\"https://thewebworks.nl/\">Johan van der Wijk</a>"
-msgstr ""
+msgstr "<a href=\"https://thewebworks.nl/\">Johan van der Wijk</a>"
 
 #. Template Name of the plugin/theme
 msgid "Landingpage"
