@@ -229,7 +229,7 @@
 			
 						<?php echo do_shortcode('[gallery size="medium"]'); ?>
 
-						<p><a class="action" href="/project/">Projectoverzicht</a></p>
+						<p><a class="action" href="/nom-projecten/">Projectoverzicht</a></p>
 
 						<?php get_template_part( 'module-page-links', get_post_format() ); ?>
 
