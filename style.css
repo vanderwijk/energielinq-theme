@@ -518,6 +518,12 @@ input[type=button].facetwp-slider-reset {
 	}
 
 }
+.post-type-archive-project .facetwp-type-pager {
+	margin-bottom: 0;
+}
+.post-type-archive-project .pagination .facetwp-type-pager {
+	font-size: 12px;
+}
 
 .wide,
 .result {

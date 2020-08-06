@@ -71,6 +71,10 @@
 	</div>
 </div>
 
-<?php get_template_part( 'module-pagination', get_post_format() ); ?>
+<?php //get_template_part( 'module-pagination', get_post_format() ); ?>
+
+<nav class="navigation pagination">
+	<?php echo do_shortcode('[facetwp facet="pager_project"]'); ?>
+</nav>
 
 <?php get_footer();
