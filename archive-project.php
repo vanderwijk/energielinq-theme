@@ -77,4 +77,16 @@
 	<?php echo do_shortcode('[facetwp facet="pager_project"]'); ?>
 </nav>
 
+<script>
+(function($) {
+	$(document).on('facetwp-loaded', function() {
+		if (FWP.loaded) {
+			$('html, body').animate({
+				scrollTop: $('.facetwp-template').offset().top - 225
+			}, 500);
+		}
+	});
+})(jQuery);
+</script>
+
 <?php get_footer();
