@@ -137,7 +137,7 @@ function my_searchwp_add_weight_to_newer_posts( $sql ) {
 	// is no science here as it correlates with the other weights
 	// in your engine configuration, and the content of your site.
 	// Experiment until results are returned as you want them to be.
-	$modifier = 40;
+	$modifier = 50;
 
 	$sql .= " + ( 100 * EXP( ( 1 - ABS( ( UNIX_TIMESTAMP( {$wpdb->prefix}posts.post_date ) - UNIX_TIMESTAMP( NOW() ) ) / 86400 ) ) / 1 ) * {$modifier} )";
 
