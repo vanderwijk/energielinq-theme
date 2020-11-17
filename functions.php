@@ -126,3 +126,22 @@ function md_pre_query( $query ) {
 
 }
 add_action( 'pre_get_posts', 'md_pre_query', 1 );
+
+/**
+ * Add search weight to more recently published entries
+ */
+function my_searchwp_add_weight_to_newer_posts( $sql ) {
+	global $wpdb;
+
+	// Adjust how much weight is given to newer publish dates. There
+	// is no science here as it correlates with the other weights
+	// in your engine configuration, and the content of your site.
+	// Experiment until results are returned as you want them to be.
+	$modifier = 25;
+
+	$sql .= " + ( 100 * EXP( ( 1 - ABS( ( UNIX_TIMESTAMP( {$wpdb->prefix}posts.post_date ) - UNIX_TIMESTAMP( NOW() ) ) / 86400 ) ) / 1 ) * {$modifier} )";
+
+	return $sql;
+}
+
+add_filter( 'searchwp_weight_mods', 'my_searchwp_add_weight_to_newer_posts' );
