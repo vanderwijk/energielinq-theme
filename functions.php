@@ -144,4 +144,16 @@ function my_searchwp_add_weight_to_newer_posts( $sql ) {
 	return $sql;
 }
 
-add_filter( 'searchwp_weight_mods', 'my_searchwp_add_weight_to_newer_posts' );
+//add_filter( 'searchwp_weight_mods', 'my_searchwp_add_weight_to_newer_posts' );
+
+// Adjust calculated weight to consider how recently the entry was published.
+add_filter( 'searchwp_weight_mods', function( $sql ) {
+	global $wpdb;
+
+	// Depending on the resulting calculation, you can modify how much the date influences the total weight.
+	$modifier = 1;
+
+	$sql .= " + ( ( UNIX_TIMESTAMP( NOW() ) - ( UNIX_TIMESTAMP( NOW() ) - UNIX_TIMESTAMP( {$wpdb->posts}.post_date ) ) - (SELECT UNIX_TIMESTAMP( post_date ) FROM {$wpdb->posts} WHERE post_status = 'publish' ORDER BY post_date ASC LIMIT 1 ) ) / 86400 ) * {$modifier}";
+
+	return $sql;
+} );
